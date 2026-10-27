@@ -1,5 +1,5 @@
 /* Light and dark themes. Therzie's icons are mostly dark metal and leather,
-   so every icon sits on a light well (.well) in both themes to keep it readable.
+   so they get a brighten filter (see index.html) and sit on a well (.well): light in light mode, the original warm dark in dark mode.
    Theme picker: data-theme="light" | "dark" on <html>; no attribute = follow the OS. */
 :root {
   --bg: #f2f3f1;
@@ -41,8 +41,8 @@
   --bg: #161613;
   --surface: #201f1b;
   --surface-2: #2a2924;
-  --well: #cfd2cb;
-  --well-hi: #e8eae5;
+  --well: #262219;
+  --well-hi: #3a3328;
   --line: #3b3a33;
   --text: #ece8df;
   --muted: #b3ab9c;
@@ -67,8 +67,8 @@
     --bg: #161613;
     --surface: #201f1b;
     --surface-2: #2a2924;
-    --well: #cfd2cb;
-    --well-hi: #e8eae5;
+    --well: #262219;
+    --well-hi: #3a3328;
     --line: #3b3a33;
     --text: #ece8df;
     --muted: #b3ab9c;
