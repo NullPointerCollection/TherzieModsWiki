@@ -272,14 +272,14 @@
 
   function homePage() {
     const count = (list, mod) => list.filter(x => x.mod === mod).length;
-    app.innerHTML = `<h1>Therzie Mods Wiki</h1>
+    app.innerHTML = `<section class="banner"><h1>Therzie Mods Wiki</h1>
       <p class="lede">Recipes, stats, creatures and altars for Therzie's Valheim mods, pulled straight from the game data.</p>
       <nav class="quick" aria-label="Shortcuts">
         <a href="#/creatures" data-quick="Tameable">Tameable creatures</a>
         <a href="#/creatures" data-quick="Boss">Bosses</a>
         <a href="#/locations" data-quick="All">Altars &amp; locations</a>
         <a href="#/pieces" data-quick="All">Crafting stations &amp; pieces</a>
-      </nav>
+      </nav><div class="rule"></div></section>
       <h2>The mods</h2>
       <div class="home-mods">${(db.meta.mods || []).map(m => `<a class="card" href="#/items" data-home-mod="${esc(m)}">
         <h2 style="color:var(--mod-${esc(m)})">${esc(m)}</h2>
