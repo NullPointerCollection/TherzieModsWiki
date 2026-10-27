@@ -10,6 +10,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script>
+    // Apply the saved theme before first paint so the page doesn't flash.
+    try { const t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
 </head>
 <body>
   <header class="topbar">
@@ -21,6 +25,13 @@
       <a href="#/locations" data-tab="locations">Locations</a>
     </nav>
     <input id="search" type="search" placeholder="Search everything…" autocomplete="off" aria-label="Search">
+    <label class="theme">Theme
+      <select id="theme" aria-label="Theme">
+        <option value="auto">Match system</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </label>
   </header>
   <main id="app"><p class="muted">Loading…</p></main>
   <footer class="footer" id="footer"></footer>

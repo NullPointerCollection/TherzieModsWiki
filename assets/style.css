@@ -1,5 +1,6 @@
-/* Light stone-grey reading theme. Therzie's icons are mostly dark metal and leather,
-   so every icon sits on a light well (.well) to keep it readable. */
+/* Light and dark themes. Therzie's icons are mostly dark metal and leather,
+   so every icon sits on a light well (.well) in both themes to keep it readable.
+   Theme picker: data-theme="light" | "dark" on <html>; no attribute = follow the OS. */
 :root {
   --bg: #f2f3f1;
   --surface: #ffffff;
@@ -22,6 +23,11 @@
   --mod-Warfare: #a33a2c;
   --mod-Monstrum: #3e6e25;
   --mod-Wizardry: #5e45a8;
+  --row-hover: #f7f8f6;
+  --scrollbar: #b9ae9b;
+  --bar-line: #4a4238;
+  --bar-hi: #f0c27a;
+  --shadow: #1f1b1614;
 
   /* type scale, ratio 1.2 */
   --fs-sm: .833rem;
@@ -31,14 +37,68 @@
   --fs-xl: 2.074rem;
 }
 
+:root[data-theme="dark"] {
+  --bg: #161613;
+  --surface: #201f1b;
+  --surface-2: #2a2924;
+  --well: #cfd2cb;
+  --well-hi: #e8eae5;
+  --line: #3b3a33;
+  --text: #ece8df;
+  --muted: #b3ab9c;
+  --accent: #e7a95a;
+  --accent-soft: #5a4120;
+  --good: #86cf7f;
+  --bad: #f08473;
+  --bar: #0d0d0b;
+  --bar-2: #23221e;
+  --mod-Armory: #d4b06a;
+  --mod-Warfare: #e8806f;
+  --mod-Monstrum: #96c975;
+  --mod-Wizardry: #b19cf0;
+  --row-hover: #26251f;
+  --scrollbar: #4d4a40;
+  --bar-line: #3b3a33;
+  --shadow: #00000066;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #161613;
+    --surface: #201f1b;
+    --surface-2: #2a2924;
+    --well: #cfd2cb;
+    --well-hi: #e8eae5;
+    --line: #3b3a33;
+    --text: #ece8df;
+    --muted: #b3ab9c;
+    --accent: #e7a95a;
+    --accent-soft: #5a4120;
+    --good: #86cf7f;
+    --bad: #f08473;
+    --bar: #0d0d0b;
+    --bar-2: #23221e;
+    --mod-Armory: #d4b06a;
+    --mod-Warfare: #e8806f;
+    --mod-Monstrum: #96c975;
+    --mod-Wizardry: #b19cf0;
+    --row-hover: #26251f;
+    --scrollbar: #4d4a40;
+    --bar-line: #3b3a33;
+    --shadow: #00000066;
+    color-scheme: dark;
+  }
+}
+
 * { box-sizing: border-box; }
-html { color-scheme: light; scrollbar-color: #b9ae9b var(--bg); }
+html { color-scheme: light; scrollbar-color: var(--scrollbar) var(--bg); }
+:root[data-theme="dark"] { color-scheme: dark; }
 html, body { margin: 0; background: var(--bg); color: var(--text); }
 body { font: 400 var(--fs-base)/1.55 "Atkinson Hyperlegible", system-ui, sans-serif; }
 ::selection { background: var(--accent-soft); color: var(--text); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 
-a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; text-decoration-color: #8a4b0f66; }
+a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { text-decoration-color: currentColor; }
 h1, h2 { line-height: 1.2; text-wrap: balance; }
 h1 { font-family: Cinzel, Georgia, serif; font-size: var(--fs-xl); font-weight: 700; margin: 0 0 6px; }
@@ -55,15 +115,15 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
   padding: 10px 24px; background: var(--bar); color: var(--bar-text);
 }
 .brand { font-family: Cinzel, Georgia, serif; color: var(--bar-text); font-size: var(--fs-md); font-weight: 700; text-decoration: none; }
-.brand:hover { color: #f0c27a; }
+.brand:hover { color: var(--bar-hi); }
 .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
 .tabs a { color: var(--bar-muted); padding: 6px 14px; border-radius: 999px; text-decoration: none; font-weight: 700; }
 .tabs a:hover { color: var(--bar-text); background: var(--bar-2); }
 .tabs a.active { color: var(--bar); background: var(--bar-text); }
-.topbar :focus-visible { outline-color: #f0c27a; }
+.topbar :focus-visible { outline-color: var(--bar-hi); }
 #search {
   margin-left: auto; min-width: 220px; flex: 0 1 340px;
-  background: var(--bar-2); color: var(--bar-text); border: 1px solid #4a4238;
+  background: var(--bar-2); color: var(--bar-text); border: 1px solid var(--bar-line);
   border-radius: 999px; padding: 9px 16px; font: inherit;
 }
 #search::placeholder { color: var(--bar-muted); opacity: 1; }
@@ -79,7 +139,7 @@ main { max-width: 1180px; margin: 0 auto; padding: 32px 24px 64px; }
   padding: 6px 14px; border-radius: 999px; cursor: pointer; font: inherit; font-size: var(--fs-sm); font-weight: 700;
 }
 .chip:hover { border-color: var(--accent); }
-.chip.on { color: #fff; background: var(--text); border-color: var(--text); }
+.chip.on { color: var(--bg); background: var(--text); border-color: var(--text); }
 select.chip { padding-right: 10px; }
 .count { color: var(--muted); margin: 0; font-variant-numeric: tabular-nums; }
 
@@ -98,7 +158,7 @@ select.chip { padding-right: 10px; }
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 10px 10px 12px; color: var(--text); text-decoration: none;
 }
-.card:hover { border-color: var(--accent); box-shadow: 0 2px 8px #1f1b1614; }
+.card:hover { border-color: var(--accent); box-shadow: 0 2px 8px var(--shadow); }
 .card .well { width: 100%; aspect-ratio: 16 / 10; }
 .card .well img { width: 64px; height: 64px; }
 .card.big .well { aspect-ratio: 1; }
@@ -144,7 +204,7 @@ th:first-child { border-top-left-radius: var(--radius); } th:last-child { border
 th, td { text-align: left; padding: 8px 18px 8px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
 td { white-space: nowrap; }
 th { color: var(--muted); font-weight: 700; font-size: var(--fs-sm); background: var(--surface-2); white-space: nowrap; }
-tbody tr:hover td { background: #f7f8f6; }
+tbody tr:hover td { background: var(--row-hover); }
 tr:last-child td { border-bottom: 0; }
 td.num, th.num { text-align: right; }
 
@@ -192,3 +252,11 @@ blockquote.rune { margin: 10px 0; padding: 14px 18px; max-width: 58ch; backgroun
 .ings { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 0; margin: 12px 0; }
 .ings .ing { min-height: 34px; }
 .ings .label { color: var(--muted); font-weight: 700; margin-right: 12px; }
+
+/* Theme picker in the top bar */
+.theme { display: flex; align-items: center; gap: 6px; color: var(--bar-muted); font-size: var(--fs-sm); font-weight: 700; }
+.theme select {
+  background: var(--bar-2); color: var(--bar-text); border: 1px solid var(--bar-line);
+  border-radius: 999px; padding: 6px 10px; font: inherit; cursor: pointer;
+}
+@media (max-width: 640px) { .theme { order: -1; margin-left: auto; } .brand { order: -2; } }

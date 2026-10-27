@@ -328,6 +328,16 @@
   });
   window.addEventListener('hashchange', route);
 
+  // ---------- theme ----------
+  const themeSel = document.getElementById('theme');
+  themeSel.value = document.documentElement.dataset.theme || 'auto';
+  themeSel.onchange = () => {
+    const t = themeSel.value;
+    if (t === 'auto') delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = t;
+    try { t === 'auto' ? localStorage.removeItem('theme') : localStorage.setItem('theme', t); } catch (e) {}
+  };
+
   // ---------- load ----------
   const load = f => fetch(`data/${f}.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => []);
   Promise.all(['items', 'pieces', 'creatures', 'locations', 'conversions', 'vanilla', 'meta'].map(load)).then(([items, pieces, creatures, locations, conversions, vanilla, meta]) => {
