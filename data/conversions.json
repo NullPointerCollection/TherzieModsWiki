@@ -1,0 +1,101 @@
+[
+  {
+    "from": "MeadBaseLightningResist_TW",
+    "to": "MeadLightningResist_TW",
+    "amount": 10,
+    "seconds": 2400,
+    "station": "fermenter",
+    "stationName": "Fermenter",
+    "stationIcon": null
+  },
+  {
+    "from": "MeadBaseLingeringStaminaMinor_TW",
+    "to": "MeadStaminaLingeringMinor_TW",
+    "amount": 3,
+    "seconds": 2400,
+    "station": "fermenter",
+    "stationName": "Fermenter",
+    "stationIcon": null
+  },
+  {
+    "from": "MeadBaseLingeringStaminaMedium_TW",
+    "to": "MeadStaminaLingeringMedium_TW",
+    "amount": 3,
+    "seconds": 2400,
+    "station": "fermenter",
+    "stationName": "Fermenter",
+    "stationIcon": null
+  },
+  {
+    "from": "MeadBaseEitrBlackForest_TW",
+    "to": "MeadEitrBlackForest_TW",
+    "amount": 6,
+    "seconds": 2400,
+    "station": "fermenter",
+    "stationName": "Fermenter",
+    "stationIcon": null
+  },
+  {
+    "from": "MeadBaseEitrMountain_TW",
+    "to": "MeadEitrMountain_TW",
+    "amount": 6,
+    "seconds": 2400,
+    "station": "fermenter",
+    "stationName": "Fermenter",
+    "stationIcon": null
+  },
+  {
+    "from": "FoxMeat_TW",
+    "to": "CookedFoxMeat_TW",
+    "amount": 1,
+    "seconds": 30,
+    "station": "piece_cookingstation",
+    "stationName": "Cooking Station",
+    "stationIcon": null
+  },
+  {
+    "from": "BearSteak_TW",
+    "to": "CookedBearSteak_TW",
+    "amount": 1,
+    "seconds": 30,
+    "station": "piece_cookingstation",
+    "stationName": "Cooking Station",
+    "stationIcon": null
+  },
+  {
+    "from": "SharkMeat_TW",
+    "to": "CookedSharkMeat_TW",
+    "amount": 1,
+    "seconds": 60,
+    "station": "piece_cookingstation_iron",
+    "stationName": "Iron Cooking Station",
+    "stationIcon": null
+  },
+  {
+    "from": "FoxMeat_TW",
+    "to": "CookedFoxMeat_TW",
+    "amount": 1,
+    "seconds": 30,
+    "station": "piece_cookingstation_iron",
+    "stationName": "Iron Cooking Station",
+    "stationIcon": null
+  },
+  {
+    "from": "BearSteak_TW",
+    "to": "CookedBearSteak_TW",
+    "amount": 1,
+    "seconds": 30,
+    "station": "piece_cookingstation_iron",
+    "stationName": "Iron Cooking Station",
+    "stationIcon": null
+  },
+  {
+    "from": "UncookedBerryCakePlains_TW",
+    "to": "BerryCakePlains_TW",
+    "amount": 1,
+    "seconds": 60,
+    "station": "piece_oven",
+    "stationName": "Stone Oven",
+    "stationIcon": null
+  }
+]

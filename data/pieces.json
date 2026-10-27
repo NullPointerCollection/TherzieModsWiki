@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "Armory_TW",
+    "mod": "Armory",
+    "name": "Armory",
+    "description": "Armor crafting station",
+    "category": "Warfare",
+    "icon": "icons/pieces/Armory_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "forge",
+      "name": "Forge",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "Stone",
+        "name": "Stone",
+        "amount": 20,
+        "recover": true
+      },
+      {
+        "id": "BronzeNails",
+        "name": "Bronze Nails",
+        "amount": 40,
+        "recover": true
+      },
+      {
+        "id": "Bronze",
+        "name": "Bronze",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "SurtlingCore",
+        "name": "Surtling Core",
+        "amount": 5,
+        "recover": true
+      },
+      {
+        "id": "TrophyEikthyr",
+        "name": "Eikthyr Trophy",
+        "amount": 1,
+        "recover": true
+      }
+    ],
+    "health": 1000,
+    "material": "Stone",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "Armory_TW",
+      "name": "Armory",
+      "level": 1,
+      "icon": "icons/stations/Armory_TW.png"
+    },
+    "conversions": [
+      {
+        "from": "CopperOre",
+        "to": "Copper",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "IronOre",
+        "to": "Iron",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "IronScrap",
+        "to": "Iron",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "BronzeScrap",
+        "to": "Bronze",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "TinOre",
+        "to": "Tin",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "SilverOre",
+        "to": "Silver",
+        "amount": 1,
+        "seconds": 30
+      },
+      {
+        "from": "CopperScrap",
+        "to": "Copper",
+        "amount": 1,
+        "seconds": 30
+      }
+    ]
+  },
+  {
+    "id": "rug_Fox_TW",
+    "mod": "Monstrum",
+    "name": "Fox Rug",
+    "description": "",
+    "category": "Warfare",
+    "icon": "icons/pieces/rug_Fox_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "piece_workbench",
+      "name": "Workbench",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "FoxPelt_TW",
+        "name": "Fox Pelt",
+        "amount": 5,
+        "recover": true
+      },
+      {
+        "id": "TrophyFox_TW",
+        "name": "Fox Trophy",
+        "amount": 1,
+        "recover": true
+      }
+    ],
+    "comfort": {
+      "value": 1,
+      "group": "None"
+    },
+    "health": 50,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    }
+  },
+  {
+    "id": "rug_GrizzlyBear_TW",
+    "mod": "Monstrum",
+    "name": "Grizzly Rug",
+    "description": "",
+    "category": "Warfare",
+    "icon": "icons/pieces/rug_GrizzlyBear_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "piece_workbench",
+      "name": "Workbench",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "GrizzlyBearPelt_TW",
+        "name": "Grizzly Pelt",
+        "amount": 6,
+        "recover": true
+      },
+      {
+        "id": "TrophyGrizzlyBear_TW",
+        "name": "Grizzly Bear Trophy",
+        "amount": 1,
+        "recover": true
+      }
+    ],
+    "comfort": {
+      "value": 1,
+      "group": "None"
+    },
+    "health": 50,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    }
+  },
+  {
+    "id": "rug_Rotten_TW",
+    "mod": "Monstrum",
+    "name": "Rotten Rug",
+    "description": "",
+    "category": "Warfare",
+    "icon": "icons/pieces/rug_Rotten_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "piece_workbench",
+      "name": "Workbench",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "RottenPelt_TW",
+        "name": "Rotten Pelt",
+        "amount": 6,
+        "recover": true
+      },
+      {
+        "id": "TrophyRottingElk_TW",
+        "name": "Rotting Elk Trophy",
+        "amount": 1,
+        "recover": true
+      }
+    ],
+    "comfort": {
+      "value": 1,
+      "group": "None"
+    },
+    "health": 50,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    }
+  },
+  {
+    "id": "BlackForge_ext4_TW",
+    "mod": "Warfare",
+    "name": "Black anvil",
+    "description": "Black forge improvement",
+    "category": "Crafting",
+    "icon": "icons/pieces/BlackForge_ext4_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "blackforge",
+      "name": "Black Forge",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "Iron",
+        "name": "Iron",
+        "amount": 20,
+        "recover": true
+      },
+      {
+        "id": "BlackMarble",
+        "name": "Black Marble",
+        "amount": 25,
+        "recover": true
+      },
+      {
+        "id": "YggdrasilWood",
+        "name": "Yggdrasil Wood",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "BlackCore",
+        "name": "Black Core",
+        "amount": 5,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "blackforge",
+      "name": "Black Forge",
+      "level": 1,
+      "icon": null
+    }
+  },
+  {
+    "id": "BlackForge_ext3_TW",
+    "mod": "Warfare",
+    "name": "Eitr-infused sharpening stone",
+    "description": "Black forge improvement",
+    "category": "Crafting",
+    "icon": "icons/pieces/BlackForge_ext3_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "blackforge",
+      "name": "Black Forge",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "Eitr",
+        "name": "Refined Eitr",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "FlametalNew",
+        "name": "Flametal",
+        "amount": 16,
+        "recover": true
+      },
+      {
+        "id": "Grausten",
+        "name": "Grausten",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "BlackMarble",
+        "name": "Black Marble",
+        "amount": 12,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "blackforge",
+      "name": "Black Forge",
+      "level": 1,
+      "icon": null
+    }
+  },
+  {
+    "id": "FletcherTable_ext1_TW",
+    "mod": "Warfare",
+    "name": "Bow rack",
+    "description": "Fletcher table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/FletcherTable_ext1_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Bronze",
+        "name": "Bronze",
+        "amount": 4,
+        "recover": true
+      },
+      {
+        "id": "FineWood",
+        "name": "Finewood",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "BronzeNails",
+        "name": "Bronze Nails",
+        "amount": 20,
+        "recover": true
+      },
+      {
+        "id": "DeerHide",
+        "name": "Deer Hide",
+        "amount": 4,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    }
+  },
+  {
+    "id": "FletcherTable_ext3_TW",
+    "mod": "Warfare",
+    "name": "Bow vise",
+    "description": "Fletcher table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/FletcherTable_ext3_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Iron",
+        "name": "Iron",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "ElderBark",
+        "name": "Ancient Bark",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "IronNails",
+        "name": "Iron Nails",
+        "amount": 40,
+        "recover": true
+      },
+      {
+        "id": "RottenPelt_TW",
+        "name": "Rotten Pelt",
+        "amount": 4,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Iron",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    }
+  },
+  {
+    "id": "FletcherTable_TW",
+    "mod": "Warfare",
+    "name": "Fletcher table",
+    "description": "Bow and arrow crafting station",
+    "category": "Warfare",
+    "icon": "icons/pieces/FletcherTable_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "piece_workbench",
+      "name": "Workbench",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "Bronze",
+        "name": "Bronze",
+        "amount": 6,
+        "recover": true
+      },
+      {
+        "id": "RoundLog",
+        "name": "Corewood",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "LeatherScraps",
+        "name": "Leather Scraps",
+        "amount": 6,
+        "recover": true
+      },
+      {
+        "id": "DeerHide",
+        "name": "Deer Hide",
+        "amount": 4,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    }
+  },
+  {
+    "id": "FletcherTable_ext2_TW",
+    "mod": "Warfare",
+    "name": "Target dummy",
+    "description": "Fletcher table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/FletcherTable_ext2_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "BronzeNails",
+        "name": "Bronze Nails",
+        "amount": 20,
+        "recover": true
+      },
+      {
+        "id": "RoundLog",
+        "name": "Corewood",
+        "amount": 8,
+        "recover": true
+      },
+      {
+        "id": "TrollHide",
+        "name": "Troll Hide",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "TrollBone_TW",
+        "name": "Troll Bone",
+        "amount": 2,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "blunt": "Ignore",
+      "pierce": "Ignore",
+      "chop": "Weak",
+      "fire": "Immune",
+      "frost": "Immune",
+      "lightning": "Immune",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    }
+  },
+  {
+    "id": "FletcherTable_ext4_TW",
+    "mod": "Warfare",
+    "name": "Wood lathe",
+    "description": "Fletcher table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/FletcherTable_ext4_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Silver",
+        "name": "Silver",
+        "amount": 14,
+        "recover": true
+      },
+      {
+        "id": "FineWood",
+        "name": "Finewood",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "Obsidian",
+        "name": "Obsidian",
+        "amount": 8,
+        "recover": true
+      },
+      {
+        "id": "WolfPelt",
+        "name": "Wolf Pelt",
+        "amount": 4,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Iron",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "FletcherTable_TW",
+      "name": "Fletcher table",
+      "level": 1,
+      "icon": "icons/stations/FletcherTable_TW.png"
+    }
+  },
+  {
+    "id": "Sapling_MushroomDeathcap_TW",
+    "mod": "Wizardry",
+    "name": "Deathcap",
+    "description": "",
+    "category": "Misc",
+    "icon": "icons/pieces/Sapling_MushroomDeathcap_TW.png",
+    "tool": "Cultivator",
+    "station": null,
+    "ingredients": [
+      {
+        "id": "MushroomDeathcap_TW",
+        "name": "Deathcap",
+        "amount": 1,
+        "recover": false
+      }
+    ],
+    "plant": {
+      "biomes": "-1",
+      "growTimeMin": 4000,
+      "growTimeMax": 5000,
+      "needsCultivatedGround": true,
+      "growsInto": [
+        "Pickable_GrownMushroomDeathcap_TW"
+      ]
+    }
+  },
+  {
+    "id": "Sapling_MushroomDevilstongue_TW",
+    "mod": "Wizardry",
+    "name": "Devil's Tongue",
+    "description": "",
+    "category": "Misc",
+    "icon": "icons/pieces/Sapling_MushroomDevilstongue_TW.png",
+    "tool": "Cultivator",
+    "station": null,
+    "ingredients": [
+      {
+        "id": "MushroomDevilstongue_TW",
+        "name": "Devil's Tongue",
+        "amount": 1,
+        "recover": false
+      }
+    ],
+    "plant": {
+      "biomes": "-1",
+      "growTimeMin": 4000,
+      "growTimeMax": 5000,
+      "needsCultivatedGround": true,
+      "growsInto": [
+        "Pickable_GrownMushroomDevilstongue_TW"
+      ]
+    }
+  },
+  {
+    "id": "Sapling_MushroomWitcheye_TW",
+    "mod": "Wizardry",
+    "name": "Witch Eye",
+    "description": "",
+    "category": "Misc",
+    "icon": "icons/pieces/Sapling_MushroomWitcheye_TW.png",
+    "tool": "Cultivator",
+    "station": null,
+    "ingredients": [
+      {
+        "id": "MushroomWitcheye_TW",
+        "name": "Witch Eye",
+        "amount": 1,
+        "recover": false
+      }
+    ],
+    "plant": {
+      "biomes": "-1",
+      "growTimeMin": 4000,
+      "growTimeMax": 5000,
+      "needsCultivatedGround": true,
+      "growsInto": [
+        "Pickable_GrownMushroomWitcheye_TW"
+      ]
+    }
+  },
+  {
+    "id": "Sapling_MushroomWizardbutter_TW",
+    "mod": "Wizardry",
+    "name": "Wizard Butter",
+    "description": "",
+    "category": "Misc",
+    "icon": "icons/pieces/Sapling_MushroomWizardbutter_TW.png",
+    "tool": "Cultivator",
+    "station": null,
+    "ingredients": [
+      {
+        "id": "MushroomWizardbutter_TW",
+        "name": "Wizard Butter",
+        "amount": 1,
+        "recover": false
+      }
+    ],
+    "plant": {
+      "biomes": "-1",
+      "growTimeMin": 4000,
+      "growTimeMax": 5000,
+      "needsCultivatedGround": true,
+      "growsInto": [
+        "Pickable_GrownMushroomWizardbutter_TW"
+      ]
+    }
+  },
+  {
+    "id": "WizardTable_ext2_TW",
+    "mod": "Wizardry",
+    "name": "Ancient Spell Book",
+    "description": "Wizard Table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/WizardTable_ext2_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "WitheredBone",
+        "name": "Withered Bone",
+        "amount": 4,
+        "recover": true
+      },
+      {
+        "id": "ElderBark",
+        "name": "Ancient Bark",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "Ooze",
+        "name": "Ooze",
+        "amount": 3,
+        "recover": true
+      },
+      {
+        "id": "ShardBonemass_TW",
+        "name": "Bonemass Shard",
+        "amount": 2,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "ArcaneAnvil_TW",
+    "mod": "Wizardry",
+    "name": "Arcane Anvil",
+    "description": "Magic enchantment station, Wizard Table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/ArcaneAnvil_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Stone",
+        "name": "Stone",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "SurtlingCore",
+        "name": "Surtling Core",
+        "amount": 4,
+        "recover": true
+      },
+      {
+        "id": "ShardElder_TW",
+        "name": "Elder Shard",
+        "amount": 2,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "ArcaneAnvil_TW",
+      "name": "Arcane Anvil",
+      "level": 1,
+      "icon": "icons/stations/ArcaneAnvil_TW.png"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "WeavingLoom_TW",
+    "mod": "Wizardry",
+    "name": "Cloth Weaving Loom",
+    "description": "Cloth crafting station, Wizard Table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/WeavingLoom_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "RoundLog",
+        "name": "Corewood",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "HardAntler",
+        "name": "Hard Antler",
+        "amount": 2,
+        "recover": true
+      },
+      {
+        "id": "Thistle",
+        "name": "Thistle",
+        "amount": 6,
+        "recover": true
+      },
+      {
+        "id": "BoneFragments",
+        "name": "Bone Fragments",
+        "amount": 3,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "WeavingLoom_TW",
+      "name": "Cloth Weaving Loom",
+      "level": 1,
+      "icon": "icons/stations/WeavingLoom_TW.png"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "PotionCauldron_TW",
+    "mod": "Wizardry",
+    "name": "Potion Cauldron",
+    "description": "Magic potion station, sorcery improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/PotionCauldron_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Iron",
+        "name": "Iron",
+        "amount": 8,
+        "recover": true
+      },
+      {
+        "id": "Bronze",
+        "name": "Bronze",
+        "amount": 4,
+        "recover": true
+      },
+      {
+        "id": "Guck",
+        "name": "Guck",
+        "amount": 8,
+        "recover": true
+      },
+      {
+        "id": "ShardBonemass_TW",
+        "name": "Bonemass Shard",
+        "amount": 2,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "PotionCauldron_TW",
+      "name": "Potion Cauldron",
+      "level": 1,
+      "icon": "icons/stations/PotionCauldron_TW.png"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "WizardTable_ext4_TW",
+    "mod": "Wizardry",
+    "name": "Ritual Circle",
+    "description": "Wizard Table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/WizardTable_ext4_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Tar",
+        "name": "Tar",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "GoblinTotem",
+        "name": "Fuling Totem",
+        "amount": 3,
+        "recover": true
+      },
+      {
+        "id": "TrophySkeleton",
+        "name": "Skeleton Trophy",
+        "amount": 3,
+        "recover": true
+      },
+      {
+        "id": "ShardYagluth_TW",
+        "name": "Yagluth Shard",
+        "amount": 4,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "WizardTable_ext3_TW",
+    "mod": "Wizardry",
+    "name": "Spell Cabinet",
+    "description": "Wizard Table improvement",
+    "category": "Warfare",
+    "icon": "icons/pieces/WizardTable_ext3_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    },
+    "ingredients": [
+      {
+        "id": "Crystal",
+        "name": "Crystal",
+        "amount": 7,
+        "recover": true
+      },
+      {
+        "id": "FineWood",
+        "name": "Finewood",
+        "amount": 12,
+        "recover": true
+      },
+      {
+        "id": "Obsidian",
+        "name": "Obsidian",
+        "amount": 5,
+        "recover": true
+      },
+      {
+        "id": "ShardModer_TW",
+        "name": "Moder Shard",
+        "amount": 2,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "extends": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  },
+  {
+    "id": "WizardTable_TW",
+    "mod": "Wizardry",
+    "name": "Wizard Table",
+    "description": "Magic crafting station",
+    "category": "Warfare",
+    "icon": "icons/pieces/WizardTable_TW.png",
+    "tool": "Hammer",
+    "station": {
+      "id": "piece_workbench",
+      "name": "Workbench",
+      "level": 1,
+      "icon": null
+    },
+    "ingredients": [
+      {
+        "id": "SurtlingCore",
+        "name": "Surtling Core",
+        "amount": 5,
+        "recover": true
+      },
+      {
+        "id": "Bronze",
+        "name": "Bronze",
+        "amount": 10,
+        "recover": true
+      },
+      {
+        "id": "RoundLog",
+        "name": "Corewood",
+        "amount": 8,
+        "recover": true
+      },
+      {
+        "id": "TrollHide",
+        "name": "Troll Hide",
+        "amount": 4,
+        "recover": true
+      },
+      {
+        "id": "BoneFragments",
+        "name": "Bone Fragments",
+        "amount": 6,
+        "recover": true
+      }
+    ],
+    "health": 100,
+    "material": "Wood",
+    "resistances": {
+      "pierce": "Resistant",
+      "chop": "Weak",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "isStation": {
+      "id": "WizardTable_TW",
+      "name": "Wizard Table",
+      "level": 1,
+      "icon": "icons/stations/WizardTable_TW.png"
+    }
+  }
+]

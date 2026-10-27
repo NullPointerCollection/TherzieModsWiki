@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "GDAncientShaman_rootspawn_TW",
+    "mod": "Monstrum",
+    "name": "Ancient Root",
+    "faction": "Boss",
+    "boss": false,
+    "health": 75,
+    "walkSpeed": 0,
+    "runSpeed": 0,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "spawns": [],
+    "portrait": "icons/creatures/GDAncientShaman_rootspawn_TW.png"
+  },
+  {
+    "id": "GDAncientShaman_TW",
+    "mod": "Monstrum",
+    "name": "Ancient Shaman",
+    "faction": "Boss",
+    "boss": false,
+    "health": 185,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "VeryWeak",
+      "poison": "Resistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "GreydwarfEye",
+        "name": "Greydwarf Eye",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "RoundLog",
+        "name": "Corewood",
+        "min": 1,
+        "max": 1,
+        "chance": 0.5,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyGreydwarfShaman",
+        "name": "Greydwarf Shaman Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.25,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/GDAncientShaman_TW.png"
+  },
+  {
+    "id": "BossAsmodeus_TW",
+    "mod": "Monstrum",
+    "name": "Asmodeus",
+    "faction": "Boss",
+    "boss": true,
+    "health": 550,
+    "walkSpeed": 6,
+    "runSpeed": 5,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "poison": "VeryResistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "defeatKey": "defeated_asmodeus",
+    "drops": [
+      {
+        "id": "KnifeViper_TW",
+        "name": "Viper",
+        "min": 1,
+        "max": 1,
+        "chance": 0.06,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      },
+      {
+        "id": "TrophyAsmodeus_TW",
+        "name": "Asmodeus Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/BossAsmodeus_TW.png"
+  },
+  {
+    "id": "Shark_TW",
+    "mod": "Monstrum",
+    "name": "Bloodgill",
+    "faction": "SeaMonsters",
+    "boss": false,
+    "health": 380,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "frost": "VeryResistant",
+      "lightning": "Weak",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "SharkMeat_TW",
+        "name": "Bloodgill Meat",
+        "min": 2,
+        "max": 6,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "SharkFin_TW",
+        "name": "Bloodgill Fin",
+        "min": 2,
+        "max": 4,
+        "chance": 0.75,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyShark_TW",
+        "name": "Bloodgill Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.22,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Ocean",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 1,
+        "interval": 2000,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": -500,
+        "altitudeMax": 0,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 3500,
+        "maxDistanceFromCenter": 7500
+      }
+    ],
+    "portrait": "icons/creatures/Shark_TW.png"
+  },
+  {
+    "id": "BurningHunger_TW",
+    "mod": "Monstrum",
+    "name": "Burning Hunger",
+    "faction": "Boss",
+    "boss": false,
+    "health": 100,
+    "walkSpeed": 0.5,
+    "runSpeed": 5,
+    "flying": false,
+    "resistances": {
+      "blunt": "Weak",
+      "pierce": "Resistant",
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Ignore",
+      "frost": "Weak",
+      "poison": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "spawns": [],
+    "portrait": "icons/creatures/BurningHunger_TW.png"
+  },
+  {
+    "id": "Crawler_TW",
+    "mod": "Monstrum",
+    "name": "Crawler",
+    "faction": "Undead",
+    "boss": false,
+    "health": 200,
+    "walkSpeed": 2,
+    "runSpeed": 5,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Immune",
+      "poison": "Resistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "WitheredBone",
+        "name": "Withered Bone",
+        "min": 1,
+        "max": 1,
+        "chance": 0.45,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "Guck",
+        "name": "Guck",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyCrawler_TW",
+        "name": "Crawler Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.3,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Swamp",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 8,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Swamp",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 18,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/Crawler_TW.png"
+  },
+  {
+    "id": "DamnedOne_TW",
+    "mod": "Monstrum",
+    "name": "Damned Soul",
+    "faction": "Boss",
+    "boss": false,
+    "health": 150,
+    "walkSpeed": 2,
+    "runSpeed": 3,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Resistant",
+      "frost": "Resistant",
+      "poison": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "spawns": [],
+    "portrait": "icons/creatures/DamnedOne_TW.png"
+  },
+  {
+    "id": "Fox_TW",
+    "mod": "Monstrum",
+    "name": "Fox",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 30,
+    "walkSpeed": 5,
+    "runSpeed": 7,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "FoxMeat_TW",
+        "name": "Raw Fox Meat",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "FoxPelt_TW",
+        "name": "Fox Pelt",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyFox_TW",
+        "name": "Fox Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.22,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "tameable": {
+      "tamingTime": 1920,
+      "fedDuration": 600,
+      "commandable": true,
+      "saddle": null,
+      "food": [
+        "NeckTail",
+        "BearSteak_TW",
+        "FishRaw",
+        "DeerMeat",
+        "RawMeat"
+      ]
+    },
+    "offspring": "FoxCub_TW",
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Meadows",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 16,
+        "interval": 600,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Meadows",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 20,
+        "interval": 600,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/Fox_TW.png"
+  },
+  {
+    "id": "FoxCub_TW",
+    "mod": "Monstrum",
+    "name": "Fox Cub",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 10,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Wood",
+        "name": "Wood",
+        "min": 1,
+        "max": 1,
+        "chance": 0,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      }
+    ],
+    "growsInto": {
+      "id": "Fox_TW",
+      "seconds": 3120
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/FoxCub_TW.png"
+  },
+  {
+    "id": "GrizzlyBear_TW",
+    "mod": "Monstrum",
+    "name": "Grizzly Bear",
+    "faction": "MountainMonsters",
+    "boss": false,
+    "health": 250,
+    "walkSpeed": 5,
+    "runSpeed": 7,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "GrizzlyBearPelt_TW",
+        "name": "Grizzly Pelt",
+        "min": 1,
+        "max": 1,
+        "chance": 0.9,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "BearSteak_TW",
+        "name": "Raw Bear Steak",
+        "min": 1,
+        "max": 2,
+        "chance": 0.7,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyGrizzlyBear_TW",
+        "name": "Grizzly Bear Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "tameable": {
+      "tamingTime": 1920,
+      "fedDuration": 600,
+      "commandable": true,
+      "saddle": "SaddleBear_TW",
+      "food": [
+        "Entrails",
+        "Blueberries",
+        "Turnip",
+        "WolfMeat",
+        "DeerMeat",
+        "Honey",
+        "FoxMeat_TW",
+        "FishRaw"
+      ]
+    },
+    "offspring": "GrizzlyBearCub_TW",
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Mountain",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 15,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 75,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Mountain",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 19,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 75,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/GrizzlyBear_TW.png"
+  },
+  {
+    "id": "GrizzlyBearCub_TW",
+    "mod": "Monstrum",
+    "name": "Grizzly Cub",
+    "faction": "MountainMonsters",
+    "boss": false,
+    "health": 25,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [],
+    "growsInto": {
+      "id": "GrizzlyBear_TW",
+      "seconds": 6000
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/GrizzlyBearCub_TW.png"
+  },
+  {
+    "id": "HelWraith_TW",
+    "mod": "Monstrum",
+    "name": "Hel Wraith",
+    "faction": "Undead",
+    "boss": false,
+    "health": 100,
+    "walkSpeed": 5,
+    "runSpeed": 4.5,
+    "flying": true,
+    "resistances": {
+      "blunt": "Resistant",
+      "slash": "Resistant",
+      "pierce": "Resistant",
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Weak",
+      "frost": "Immune",
+      "poison": "Immune",
+      "spirit": "Weak"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Chain",
+        "name": "Chain",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyWraith",
+        "name": "Wraith Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.24,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/HelWraith_TW.png"
+  },
+  {
+    "id": "ObsidianGolem_TW",
+    "mod": "Monstrum",
+    "name": "Obsidian Golem",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 600,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "slash": "Resistant",
+      "pierce": "Resistant",
+      "chop": "Ignore",
+      "pickaxe": "VeryWeak",
+      "fire": "Immune",
+      "frost": "Immune",
+      "poison": "Immune",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": true,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Obsidian",
+        "name": "Obsidian",
+        "min": 4,
+        "max": 10,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyObsidianGolem_TW",
+        "name": "Obsidian Golem Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.25,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Mountain",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 10,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 100,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/ObsidianGolem_TW.png"
+  },
+  {
+    "id": "Prowler_TW",
+    "mod": "Monstrum",
+    "name": "Prowler",
+    "faction": "PlainsMonsters",
+    "boss": false,
+    "health": 335,
+    "walkSpeed": 5,
+    "runSpeed": 9,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "ProwlerFang_TW",
+        "name": "Prowler Fang",
+        "min": 1,
+        "max": 2,
+        "chance": 0.9,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "LoxBone_TW",
+        "name": "Lox Bone",
+        "min": 1,
+        "max": 1,
+        "chance": 0.25,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyProwler_TW",
+        "name": "Prowler Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.22,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "tameable": {
+      "tamingTime": 1980,
+      "fedDuration": 600,
+      "commandable": true,
+      "saddle": "SaddleProwler_TW",
+      "food": [
+        "LoxMeat",
+        "WolfMeat",
+        "BearSteak_TW",
+        "DeerMeat",
+        "HareMeat",
+        "BugMeat",
+        "RawMeat",
+        "FishRaw",
+        "FoxMeat_TW"
+      ]
+    },
+    "offspring": "ProwlerCub_TW",
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Plains",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 8,
+        "interval": 1100,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Plains",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 16,
+        "interval": 1100,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/Prowler_TW.png"
+  },
+  {
+    "id": "ProwlerCub_TW",
+    "mod": "Monstrum",
+    "name": "Prowler Cub",
+    "faction": "PlainsMonsters",
+    "boss": false,
+    "health": 25,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Wood",
+        "name": "Wood",
+        "min": 1,
+        "max": 1,
+        "chance": 0,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      }
+    ],
+    "growsInto": {
+      "id": "Prowler_TW",
+      "seconds": 6000
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/ProwlerCub_TW.png"
+  },
+  {
+    "id": "Razorback_TW",
+    "mod": "Monstrum",
+    "name": "Razorback",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 50,
+    "walkSpeed": 5,
+    "runSpeed": 8,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "RawMeat",
+        "name": "Boar Meat",
+        "min": 1,
+        "max": 1,
+        "chance": 0.9,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "RazorbackLeather_TW",
+        "name": "Razorback Leather",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "RazorbackTusk_TW",
+        "name": "Razorback Tusk",
+        "min": 1,
+        "max": 2,
+        "chance": 0.7,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyRazorback_TW",
+        "name": "Razorback Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.18,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "tameable": {
+      "tamingTime": 1800,
+      "fedDuration": 600,
+      "commandable": true,
+      "saddle": "SaddleBoar_TW",
+      "food": [
+        "Turnip",
+        "Carrot",
+        "Onion",
+        "Mushroom",
+        "Raspberry",
+        "Blueberries",
+        "MushroomYellow",
+        "RawMeat"
+      ]
+    },
+    "offspring": "RazorbackPiggy_TW",
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "BlackForest",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 18,
+        "interval": 750,
+        "maxSpawned": 2,
+        "groupMin": 1,
+        "groupMax": 2,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/Razorback_TW.png"
+  },
+  {
+    "id": "RazorbackPiggy_TW",
+    "mod": "Monstrum",
+    "name": "Razorback Piglet",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 20,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Wood",
+        "name": "Wood",
+        "min": 1,
+        "max": 1,
+        "chance": 0,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      }
+    ],
+    "growsInto": {
+      "id": "Razorback_TW",
+      "seconds": 4000
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/RazorbackPiggy_TW.png"
+  },
+  {
+    "id": "RottingElk_TW",
+    "mod": "Monstrum",
+    "name": "Rotting Elk",
+    "faction": "Undead",
+    "boss": false,
+    "health": 140,
+    "walkSpeed": 5,
+    "runSpeed": 7,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "poison": "Ignore"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "RottenPelt_TW",
+        "name": "Rotten Pelt",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "Guck",
+        "name": "Guck",
+        "min": 1,
+        "max": 1,
+        "chance": 0.3,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "RottingElkMeat_TW",
+        "name": "Rotten Elk Meat",
+        "min": 1,
+        "max": 1,
+        "chance": 0.25,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyRottingElk_TW",
+        "name": "Rotting Elk Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.18,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Swamp",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": true,
+        "chance": 25,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": -1000,
+        "altitudeMax": 5,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/RottingElk_TW.png"
+  },
+  {
+    "id": "BossSvalt_TW",
+    "mod": "Monstrum",
+    "name": "Svält",
+    "faction": "Boss",
+    "boss": true,
+    "health": 2500,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Ignore",
+      "lightning": "Weak"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "defeatKey": "defeated_svalt",
+    "drops": [
+      {
+        "id": "DualAxeDemonic_TW",
+        "name": "Hellblade Cleavers",
+        "min": 1,
+        "max": 1,
+        "chance": 0.07,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      },
+      {
+        "id": "TrophySvalt_TW",
+        "name": "Svält Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/BossSvalt_TW.png"
+  },
+  {
+    "id": "BossVrykolathas_TW",
+    "mod": "Monstrum",
+    "name": "Vrykolathas",
+    "faction": "Boss",
+    "boss": true,
+    "health": 5000,
+    "walkSpeed": 6,
+    "runSpeed": 5,
+    "flying": true,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Weak",
+      "frost": "Resistant",
+      "lightning": "Weak",
+      "poison": "Ignore",
+      "spirit": "Weak"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "defeatKey": "defeated_vrykolathas",
+    "drops": [
+      {
+        "id": "ScytheVampiric_TW",
+        "name": "Blood Drinker",
+        "min": 1,
+        "max": 1,
+        "chance": 0.06,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      },
+      {
+        "id": "DualScytheBloodthirst_TW",
+        "name": "Blood Thirster",
+        "min": 1,
+        "max": 1,
+        "chance": 0.06,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      },
+      {
+        "id": "TrophyVrykolathas_TW",
+        "name": "Vrykolathas Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/BossVrykolathas_TW.png"
+  },
+  {
+    "id": "Staff_root_TW",
+    "mod": "Wizardry",
+    "name": "Conjured Root",
+    "faction": "Players",
+    "boss": false,
+    "health": 34,
+    "walkSpeed": 0,
+    "runSpeed": 0,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Weak",
+      "frost": "Resistant",
+      "poison": "Immune",
+      "spirit": "Ignore"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "tameable": {
+      "tamingTime": 1800,
+      "fedDuration": 30,
+      "commandable": false,
+      "saddle": null,
+      "food": []
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/Staff_root_TW.png"
+  },
+  {
+    "id": "SummonedSeeker_TW",
+    "mod": "Wizardry",
+    "name": "Conjured Seeker",
+    "faction": "MistlandsMonsters",
+    "boss": false,
+    "health": 200,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "blunt": "Resistant",
+      "slash": "Resistant",
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "lightning": "VeryResistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Carapace",
+        "name": "Carapace",
+        "min": 1,
+        "max": 1,
+        "chance": 0.6,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardQueen_TW",
+        "name": "Queen Shard",
+        "min": 1,
+        "max": 1,
+        "chance": 0.1,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [],
+    "portrait": "icons/creatures/SummonedSeeker_TW.png"
+  },
+  {
+    "id": "CorruptedDvergerMage_TW",
+    "mod": "Wizardry",
+    "name": "Corrupted Mage",
+    "faction": "MistlandsMonsters",
+    "boss": false,
+    "health": 520,
+    "walkSpeed": 2,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Resistant",
+      "frost": "Resistant",
+      "lightning": "Resistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "Softtissue",
+        "name": "Soft Tissue",
+        "min": 1,
+        "max": 1,
+        "chance": 0.7,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "Coins",
+        "name": "Coins",
+        "min": 7,
+        "max": 14,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardQueen_TW",
+        "name": "Queen Shard",
+        "min": 1,
+        "max": 2,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyDvergr",
+        "name": "Dvergr Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Mistlands",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 18,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Mistlands",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 22,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/CorruptedDvergerMage_TW.png"
+  },
+  {
+    "id": "Sheep_TW",
+    "mod": "Wizardry",
+    "name": "Darkhorn",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 25,
+    "walkSpeed": 4,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "WoolScraps_TW",
+        "name": "Wool",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "RawMeat",
+        "name": "Boar Meat",
+        "min": 1,
+        "max": 1,
+        "chance": 0.6,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophySheep_TW",
+        "name": "Darkhorn Sheep Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.15,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "tameable": {
+      "tamingTime": 1800,
+      "fedDuration": 600,
+      "commandable": true,
+      "saddle": null,
+      "food": [
+        "Raspberry",
+        "Dandelion",
+        "Blueberries",
+        "Mushroom",
+        "Carrot",
+        "Onion",
+        "Barley",
+        "Thistle",
+        "MushroomYellow",
+        "Turnip",
+        "Cloudberry"
+      ]
+    },
+    "offspring": "Lamb_TW",
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Meadows",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 20,
+        "interval": 500,
+        "maxSpawned": 2,
+        "groupMin": 1,
+        "groupMax": 2,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      },
+      {
+        "enabled": true,
+        "biome": "Meadows",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 14,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      }
+    ],
+    "portrait": "icons/creatures/Sheep_TW.png"
+  },
+  {
+    "id": "Lamb_TW",
+    "mod": "Wizardry",
+    "name": "Darkhorn Lamb",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 20,
+    "walkSpeed": 3,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [],
+    "growsInto": {
+      "id": "Sheep_TW",
+      "seconds": 3000
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/Lamb_TW.png"
+  },
+  {
+    "id": "FenringMage_TW",
+    "mod": "Wizardry",
+    "name": "Fenring Mage",
+    "faction": "MountainMonsters",
+    "boss": false,
+    "health": 240,
+    "walkSpeed": 5,
+    "runSpeed": 5,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "frost": "Resistant",
+      "lightning": "Resistant",
+      "poison": "Resistant",
+      "spirit": "Resistant"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "WolfClaw",
+        "name": "Fenris Claw",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "Crystal",
+        "name": "Crystal",
+        "min": 1,
+        "max": 1,
+        "chance": 0.15,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardModer_TW",
+        "name": "Moder Shard",
+        "min": 1,
+        "max": 2,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyCultist",
+        "name": "Cultist Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Mountain",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 18,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      },
+      {
+        "enabled": true,
+        "biome": "Mountain",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 24,
+        "interval": 600,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 5,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      }
+    ],
+    "portrait": "icons/creatures/FenringMage_TW.png"
+  },
+  {
+    "id": "GoblinMage_TW",
+    "mod": "Wizardry",
+    "name": "Fuling Mage",
+    "faction": "PlainsMonsters",
+    "boss": false,
+    "health": 300,
+    "walkSpeed": 1,
+    "runSpeed": 3,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Resistant",
+      "frost": "Resistant",
+      "lightning": "Resistant",
+      "poison": "Resistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": false,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "BlackMetalScrap",
+        "name": "Black Metal Scrap",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "GoblinTotem",
+        "name": "Fuling Totem",
+        "min": 1,
+        "max": 1,
+        "chance": 0.15,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardYagluth_TW",
+        "name": "Yagluth Shard",
+        "min": 1,
+        "max": 2,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyGoblinShaman",
+        "name": "Fuling Shaman Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Plains",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 16,
+        "interval": 900,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      },
+      {
+        "enabled": true,
+        "biome": "Plains",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 22,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false
+      }
+    ],
+    "portrait": "icons/creatures/GoblinMage_TW.png"
+  },
+  {
+    "id": "GreydwarfMage_TW",
+    "mod": "Wizardry",
+    "name": "Greydwarf Mage",
+    "faction": "ForestMonsters",
+    "boss": false,
+    "health": 130,
+    "walkSpeed": 5,
+    "runSpeed": 4,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Ignore",
+      "frost": "Resistant",
+      "lightning": "Resistant",
+      "poison": "Resistant",
+      "spirit": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": true,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "AncientSeed",
+        "name": "Ancient Seed",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "SurtlingCore",
+        "name": "Surtling Core",
+        "min": 1,
+        "max": 1,
+        "chance": 0.15,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardElder_TW",
+        "name": "Elder Shard",
+        "min": 1,
+        "max": 2,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophyGreydwarfShaman",
+        "name": "Greydwarf Shaman Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "BlackForest",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 16,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 0,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      },
+      {
+        "enabled": true,
+        "biome": "BlackForest",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 22,
+        "interval": 600,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 0,
+        "altitudeMax": 1000,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      }
+    ],
+    "portrait": "icons/creatures/GreydwarfMage_TW.png"
+  },
+  {
+    "id": "SummonedSurtling_TW",
+    "mod": "Wizardry",
+    "name": "Helling",
+    "faction": "Players",
+    "boss": false,
+    "health": 70,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Ignore",
+      "spirit": "Ignore"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": true,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "tameable": {
+      "tamingTime": 1800,
+      "fedDuration": 30,
+      "commandable": false,
+      "saddle": null,
+      "food": []
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/SummonedSurtling_TW.png"
+  },
+  {
+    "id": "SkeletonMage_TW",
+    "mod": "Wizardry",
+    "name": "Skeletal Mage",
+    "faction": "Undead",
+    "boss": false,
+    "health": 180,
+    "walkSpeed": 0.5,
+    "runSpeed": 5,
+    "flying": false,
+    "resistances": {
+      "blunt": "Weak",
+      "pierce": "Resistant",
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Ignore",
+      "frost": "Resistant",
+      "lightning": "Resistant",
+      "poison": "Immune"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": false,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [
+      {
+        "id": "BoneFragments",
+        "name": "Bone Fragments",
+        "min": 1,
+        "max": 1,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "WitheredBone",
+        "name": "Withered Bone",
+        "min": 1,
+        "max": 1,
+        "chance": 0.15,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "ShardBonemass_TW",
+        "name": "Bonemass Shard",
+        "min": 1,
+        "max": 2,
+        "chance": 1,
+        "onePerPlayer": false,
+        "scalesWithLevel": true
+      },
+      {
+        "id": "TrophySkeletonPoison",
+        "name": "Rancid Remains Trophy",
+        "min": 1,
+        "max": 1,
+        "chance": 0.2,
+        "onePerPlayer": false,
+        "scalesWithLevel": false
+      }
+    ],
+    "spawns": [
+      {
+        "enabled": true,
+        "biome": "Swamp",
+        "biomeArea": "Everything",
+        "day": true,
+        "night": false,
+        "chance": 16,
+        "interval": 800,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 1,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      },
+      {
+        "enabled": true,
+        "biome": "Swamp",
+        "biomeArea": "Everything",
+        "day": false,
+        "night": true,
+        "chance": 23,
+        "interval": 600,
+        "maxSpawned": 1,
+        "groupMin": 1,
+        "groupMax": 1,
+        "levelMin": 1,
+        "levelMax": 3,
+        "altitudeMin": 0,
+        "altitudeMax": 100,
+        "inForest": true,
+        "outsideForest": true,
+        "huntPlayer": false,
+        "minDistanceFromCenter": 200
+      }
+    ],
+    "portrait": "icons/creatures/SkeletonMage_TW.png"
+  },
+  {
+    "id": "SummonedGolem_TW",
+    "mod": "Wizardry",
+    "name": "Tar golem",
+    "faction": "Players",
+    "boss": false,
+    "health": 250,
+    "walkSpeed": 5,
+    "runSpeed": 6,
+    "flying": false,
+    "resistances": {
+      "chop": "Ignore",
+      "pickaxe": "Ignore",
+      "fire": "Weak",
+      "poison": "Ignore",
+      "spirit": "Ignore"
+    },
+    "tolerates": {
+      "water": true,
+      "fire": true,
+      "smoke": true,
+      "tar": false
+    },
+    "drops": [],
+    "tameable": {
+      "tamingTime": 1800,
+      "fedDuration": 30,
+      "commandable": false,
+      "saddle": null,
+      "food": []
+    },
+    "spawns": [],
+    "portrait": "icons/creatures/SummonedGolem_TW.png"
+  }
+]

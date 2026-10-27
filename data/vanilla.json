@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "Wood",
+    "kind": "item",
+    "name": "Wood"
+  },
+  {
+    "id": "Stone",
+    "kind": "item",
+    "name": "Stone"
+  },
+  {
+    "id": "Upgrader0Weapon",
+    "kind": "item",
+    "name": "Wooden Battle Idol"
+  },
+  {
+    "id": "Blueberries",
+    "kind": "item",
+    "name": "Blueberries"
+  },
+  {
+    "id": "Coal",
+    "kind": "item",
+    "name": "Coal"
+  },
+  {
+    "id": "JuteBlue",
+    "kind": "item",
+    "name": "Blue Jute"
+  },
+  {
+    "id": "MeadTasty",
+    "kind": "item",
+    "name": "Tasty Mead"
+  },
+  {
+    "id": "MushroomYellow",
+    "kind": "item",
+    "name": "Yellow Mushroom"
+  },
+  {
+    "id": "Honey",
+    "kind": "item",
+    "name": "Honey"
+  },
+  {
+    "id": "Cloudberry",
+    "kind": "item",
+    "name": "Cloudberries"
+  },
+  {
+    "id": "Barley",
+    "kind": "item",
+    "name": "Barley"
+  },
+  {
+    "id": "Flax",
+    "kind": "item",
+    "name": "Flax"
+  },
+  {
+    "id": "Guck",
+    "kind": "item",
+    "name": "Guck"
+  },
+  {
+    "id": "Ooze",
+    "kind": "item",
+    "name": "Ooze"
+  },
+  {
+    "id": "Upgrader2Armor",
+    "kind": "item",
+    "name": "Iron Protection Idol"
+  },
+  {
+    "id": "BoneFragments",
+    "kind": "item",
+    "name": "Bone Fragments"
+  },
+  {
+    "id": "Feathers",
+    "kind": "item",
+    "name": "Feathers"
+  },
+  {
+    "id": "ElderBark",
+    "kind": "item",
+    "name": "Ancient Bark"
+  },
+  {
+    "id": "Resin",
+    "kind": "item",
+    "name": "Resin"
+  },
+  {
+    "id": "SurtlingCore",
+    "kind": "item",
+    "name": "Surtling Core"
+  },
+  {
+    "id": "YggdrasilWood",
+    "kind": "item",
+    "name": "Yggdrasil Wood"
+  },
+  {
+    "id": "Carapace",
+    "kind": "item",
+    "name": "Carapace"
+  },
+  {
+    "id": "Eitr",
+    "kind": "item",
+    "name": "Refined Eitr"
+  },
+  {
+    "id": "BlackMetal",
+    "kind": "item",
+    "name": "Black Metal"
+  },
+  {
+    "id": "SilverOre",
+    "kind": "item",
+    "name": "Silver Ore"
+  },
+  {
+    "id": "WolfHairBundle",
+    "kind": "item",
+    "name": "Fenris Hair"
+  },
+  {
+    "id": "HardAntler",
+    "kind": "item",
+    "name": "Hard Antler"
+  },
+  {
+    "id": "Bronze",
+    "kind": "item",
+    "name": "Bronze"
+  },
+  {
+    "id": "Obsidian",
+    "kind": "item",
+    "name": "Obsidian"
+  },
+  {
+    "id": "FreezeGland",
+    "kind": "item",
+    "name": "Freeze Gland"
+  },
+  {
+    "id": "Silver",
+    "kind": "item",
+    "name": "Silver"
+  },
+  {
+    "id": "Iron",
+    "kind": "item",
+    "name": "Iron"
+  },
+  {
+    "id": "Tar",
+    "kind": "item",
+    "name": "Tar"
+  },
+  {
+    "id": "WolfFang",
+    "kind": "item",
+    "name": "Wolf Fang"
+  },
+  {
+    "id": "TrophyWolf",
+    "kind": "item",
+    "name": "Wolf Trophy"
+  },
+  {
+    "id": "Upgrader3Weapon",
+    "kind": "item",
+    "name": "Silver Battle Idol"
+  },
+  {
+    "id": "TrophyTick",
+    "kind": "item",
+    "name": "Tick Trophy"
+  },
+  {
+    "id": "Upgrader5Weapon",
+    "kind": "item",
+    "name": "Black Marble Battle Idol"
+  },
+  {
+    "id": "Blackwood",
+    "kind": "item",
+    "name": "Ashwood"
+  },
+  {
+    "id": "FlametalNew",
+    "kind": "item",
+    "name": "Flametal"
+  },
+  {
+    "id": "BonemawSerpentTooth",
+    "kind": "item",
+    "name": "Bonemaw Tooth"
+  },
+  {
+    "id": "TrophyBonemawSerpent",
+    "kind": "item",
+    "name": "Bonemaw Trophy"
+  },
+  {
+    "id": "Upgrader6Weapon",
+    "kind": "item",
+    "name": "Flametal Battle Idol"
+  },
+  {
+    "id": "Flint",
+    "kind": "item",
+    "name": "Flint"
+  },
+  {
+    "id": "RoundLog",
+    "kind": "item",
+    "name": "Corewood"
+  },
+  {
+    "id": "FineWood",
+    "kind": "item",
+    "name": "Finewood"
+  },
+  {
+    "id": "LinenThread",
+    "kind": "item",
+    "name": "Linen Thread"
+  },
+  {
+    "id": "Bloodbag",
+    "kind": "item",
+    "name": "Bloodbag"
+  },
+  {
+    "id": "Upgrader2Weapon",
+    "kind": "item",
+    "name": "Iron Battle Idol"
+  },
+  {
+    "id": "WitheredBone",
+    "kind": "item",
+    "name": "Withered Bone"
+  },
+  {
+    "id": "WolfClaw",
+    "kind": "item",
+    "name": "Fenris Claw"
+  },
+  {
+    "id": "Chitin",
+    "kind": "item",
+    "name": "Chitin"
+  },
+  {
+    "id": "TrophyLox",
+    "kind": "item",
+    "name": "Lox Trophy"
+  },
+  {
+    "id": "Upgrader4Weapon",
+    "kind": "item",
+    "name": "Black Metal Battle Idol"
+  },
+  {
+    "id": "GreydwarfEye",
+    "kind": "item",
+    "name": "Greydwarf Eye"
+  },
+  {
+    "id": "LeatherScraps",
+    "kind": "item",
+    "name": "Leather Scraps"
+  },
+  {
+    "id": "Copper",
+    "kind": "item",
+    "name": "Copper"
+  },
+  {
+    "id": "TrophySkeleton",
+    "kind": "item",
+    "name": "Skeleton Trophy"
+  },
+  {
+    "id": "Upgrader1Weapon",
+    "kind": "item",
+    "name": "Bronze Battle Idol"
+  },
+  {
+    "id": "TrophyFenring",
+    "kind": "item",
+    "name": "Fenring Trophy"
+  },
+  {
+    "id": "TrophyGoblinBrute",
+    "kind": "item",
+    "name": "Fuling Berserker Trophy"
+  },
+  {
+    "id": "TrophyGjall",
+    "kind": "item",
+    "name": "Gjall Trophy"
+  },
+  {
+    "id": "CharredBone",
+    "kind": "item",
+    "name": "Charred Bone"
+  },
+  {
+    "id": "AskHide",
+    "kind": "item",
+    "name": "Asksvin Hide"
+  },
+  {
+    "id": "TrophyDraugrElite",
+    "kind": "item",
+    "name": "Draugr Elite Trophy"
+  },
+  {
+    "id": "Softtissue",
+    "kind": "item",
+    "name": "Soft Tissue"
+  },
+  {
+    "id": "TrophyFallenValkyrie",
+    "kind": "item",
+    "name": "Fallen Valkyrie Trophy"
+  },
+  {
+    "id": "Crystal",
+    "kind": "item",
+    "name": "Crystal"
+  },
+  {
+    "id": "TrophyFrostTroll",
+    "kind": "item",
+    "name": "Troll Trophy"
+  },
+  {
+    "id": "TrophyTheElder",
+    "kind": "item",
+    "name": "The Elder Trophy"
+  },
+  {
+    "id": "TrophySGolem",
+    "kind": "item",
+    "name": "Stone Golem Trophy"
+  },
+  {
+    "id": "TrophySeekerBrute",
+    "kind": "item",
+    "name": "Seeker Soldier Trophy"
+  },
+  {
+    "id": "Needle",
+    "kind": "item",
+    "name": "Needle"
+  },
+  {
+    "id": "TrophyDeathsquito",
+    "kind": "item",
+    "name": "Deathsquito Trophy"
+  },
+  {
+    "id": "TrophyDragonQueen",
+    "kind": "item",
+    "name": "Moder Trophy"
+  },
+  {
+    "id": "DeerHide",
+    "kind": "item",
+    "name": "Deer Hide"
+  },
+  {
+    "id": "TrophyEikthyr",
+    "kind": "item",
+    "name": "Eikthyr Trophy"
+  },
+  {
+    "id": "TrophyGreydwarfShaman",
+    "kind": "item",
+    "name": "Greydwarf Shaman Trophy"
+  },
+  {
+    "id": "TrophyWraith",
+    "kind": "item",
+    "name": "Wraith Trophy"
+  },
+  {
+    "id": "JuteRed",
+    "kind": "item",
+    "name": "Red Jute"
+  },
+  {
+    "id": "TrophyCultist",
+    "kind": "item",
+    "name": "Cultist Trophy"
+  },
+  {
+    "id": "TrophyGreydwarfBrute",
+    "kind": "item",
+    "name": "Greydwarf Brute Trophy"
+  },
+  {
+    "id": "TrophyGoblinShaman",
+    "kind": "item",
+    "name": "Fuling Shaman Trophy"
+  },
+  {
+    "id": "GoblinTotem",
+    "kind": "item",
+    "name": "Fuling Totem"
+  },
+  {
+    "id": "YagluthDrop",
+    "kind": "item",
+    "name": "Torn Spirit"
+  },
+  {
+    "id": "TrophyGoblinKing",
+    "kind": "item",
+    "name": "Yagluth Trophy"
+  },
+  {
+    "id": "TrophyGreydwarf",
+    "kind": "item",
+    "name": "Greydwarf Trophy"
+  },
+  {
+    "id": "TrophyAbomination",
+    "kind": "item",
+    "name": "Abomination Trophy"
+  },
+  {
+    "id": "TrophyUlv",
+    "kind": "item",
+    "name": "Ulv Trophy"
+  },
+  {
+    "id": "TrophySeeker",
+    "kind": "item",
+    "name": "Seeker Trophy"
+  },
+  {
+    "id": "TrophySeekerQueen",
+    "kind": "item",
+    "name": "The Queen Trophy"
+  },
+  {
+    "id": "TrophyAsksvin",
+    "kind": "item",
+    "name": "Asksvin Trophy"
+  },
+  {
+    "id": "Root",
+    "kind": "item",
+    "name": "Root"
+  },
+  {
+    "id": "TrophyCharredMage",
+    "kind": "item",
+    "name": "Warlock Trophy"
+  },
+  {
+    "id": "TrophyLeech",
+    "kind": "item",
+    "name": "Leech Trophy"
+  },
+  {
+    "id": "IronNails",
+    "kind": "item",
+    "name": "Iron Nails"
+  },
+  {
+    "id": "TrophyDraugr",
+    "kind": "item",
+    "name": "Draugr Trophy"
+  },
+  {
+    "id": "TrollHide",
+    "kind": "item",
+    "name": "Troll Hide"
+  },
+  {
+    "id": "TrophyDvergr",
+    "kind": "item",
+    "name": "Dvergr Trophy"
+  },
+  {
+    "id": "TrophyDeer",
+    "kind": "item",
+    "name": "Deer Trophy"
+  },
+  {
+    "id": "YmirRemains",
+    "kind": "item",
+    "name": "Ymir Flesh"
+  },
+  {
+    "id": "TrophyBonemass",
+    "kind": "item",
+    "name": "Bonemass Trophy"
+  },
+  {
+    "id": "TrophyMorgen",
+    "kind": "item",
+    "name": "Morgen Trophy"
+  },
+  {
+    "id": "AncientSeed",
+    "kind": "item",
+    "name": "Ancient Seed"
+  },
+  {
+    "id": "TrophyCharredMelee",
+    "kind": "item",
+    "name": "Warrior Trophy"
+  },
+  {
+    "id": "Tin",
+    "kind": "item",
+    "name": "Tin"
+  },
+  {
+    "id": "Upgrader1Armor",
+    "kind": "item",
+    "name": "Bronze Protection Idol"
+  },
+  {
+    "id": "Upgrader3Armor",
+    "kind": "item",
+    "name": "Silver Protection Idol"
+  },
+  {
+    "id": "Upgrader4Armor",
+    "kind": "item",
+    "name": "Black Metal Protection Idol"
+  },
+  {
+    "id": "BlackMarble",
+    "kind": "item",
+    "name": "Black Marble"
+  },
+  {
+    "id": "Upgrader5Armor",
+    "kind": "item",
+    "name": "Black Marble Protection Idol"
+  },
+  {
+    "id": "FaderDrop",
+    "kind": "item",
+    "name": "Kindled Ribs"
+  },
+  {
+    "id": "BjornHide",
+    "kind": "item",
+    "name": "Bear Hide"
+  },
+  {
+    "id": "TrophyBjorn",
+    "kind": "item",
+    "name": "Bear Trophy"
+  },
+  {
+    "id": "BjornPaw",
+    "kind": "item",
+    "name": "Bear Paw"
+  },
+  {
+    "id": "WolfPelt",
+    "kind": "item",
+    "name": "Wolf Pelt"
+  },
+  {
+    "id": "LoxPelt",
+    "kind": "item",
+    "name": "Lox Pelt"
+  },
+  {
+    "id": "ScaleHide",
+    "kind": "item",
+    "name": "Scale Hide"
+  },
+  {
+    "id": "BeltStrength",
+    "kind": "item",
+    "name": "Megingjord"
+  },
+  {
+    "id": "CapeTrollHide",
+    "kind": "item",
+    "name": "Troll Hide Cape"
+  },
+  {
+    "id": "HelmetLeather",
+    "kind": "item",
+    "name": "Leather Helmet"
+  },
+  {
+    "id": "Upgrader0Armor",
+    "kind": "item",
+    "name": "Wooden Protection Idol"
+  },
+  {
+    "id": "ArmorLeatherChest",
+    "kind": "item",
+    "name": "Leather Tunic"
+  },
+  {
+    "id": "ArmorLeatherLegs",
+    "kind": "item",
+    "name": "Leather Trousers"
+  },
+  {
+    "id": "HelmetTrollLeather",
+    "kind": "item",
+    "name": "Troll Leather Hood"
+  },
+  {
+    "id": "ArmorTrollLeatherChest",
+    "kind": "item",
+    "name": "Troll Leather Tunic"
+  },
+  {
+    "id": "ArmorTrollLeatherLegs",
+    "kind": "item",
+    "name": "Troll Leather Trousers"
+  },
+  {
+    "id": "Entrails",
+    "kind": "item",
+    "name": "Entrails"
+  },
+  {
+    "id": "HelmetBronze",
+    "kind": "item",
+    "name": "Bronze Helmet"
+  },
+  {
+    "id": "ArmorBronzeChest",
+    "kind": "item",
+    "name": "Bronze Plate Tunic"
+  },
+  {
+    "id": "ArmorBronzeLegs",
+    "kind": "item",
+    "name": "Bronze Plate Leggings"
+  },
+  {
+    "id": "Mandible",
+    "kind": "item",
+    "name": "Mandible"
+  },
+  {
+    "id": "HelmetIron",
+    "kind": "item",
+    "name": "Iron Helmet"
+  },
+  {
+    "id": "ArmorIronChest",
+    "kind": "item",
+    "name": "Iron Scale Mail"
+  },
+  {
+    "id": "ArmorIronLegs",
+    "kind": "item",
+    "name": "Iron Greaves"
+  },
+  {
+    "id": "Bilebag",
+    "kind": "item",
+    "name": "Bilebag"
+  },
+  {
+    "id": "Upgrader6Armor",
+    "kind": "item",
+    "name": "Flametal Protection Idol"
+  },
+  {
+    "id": "MorgenSinew",
+    "kind": "item",
+    "name": "Morgen Sinew"
+  },
+  {
+    "id": "HelmetDrake",
+    "kind": "item",
+    "name": "Drake Helmet"
+  },
+  {
+    "id": "ArmorWolfChest",
+    "kind": "item",
+    "name": "Wolf Hide Chestpiece"
+  },
+  {
+    "id": "ArmorWolfLegs",
+    "kind": "item",
+    "name": "Wolf Hide Trousers"
+  },
+  {
+    "id": "HelmetFenring",
+    "kind": "item",
+    "name": "Fenris Hood"
+  },
+  {
+    "id": "ArmorFenringChest",
+    "kind": "item",
+    "name": "Fenris Coat"
+  },
+  {
+    "id": "ArmorFenringLegs",
+    "kind": "item",
+    "name": "Fenris Leggings"
+  },
+  {
+    "id": "HelmetPadded",
+    "kind": "item",
+    "name": "Padded Helmet"
+  },
+  {
+    "id": "ArmorPaddedCuirass",
+    "kind": "item",
+    "name": "Padded Cuirass"
+  },
+  {
+    "id": "ArmorPaddedGreaves",
+    "kind": "item",
+    "name": "Padded Greaves"
+  },
+  {
+    "id": "MorgenHeart",
+    "kind": "item",
+    "name": "Morgen Heart"
+  },
+  {
+    "id": "HelmetCarapace",
+    "kind": "item",
+    "name": "Carapace Helmet"
+  },
+  {
+    "id": "ArmorCarapaceChest",
+    "kind": "item",
+    "name": "Carapace Breastplate"
+  },
+  {
+    "id": "ArmorCarapaceLegs",
+    "kind": "item",
+    "name": "Carapace Greaves"
+  },
+  {
+    "id": "BjornMeat",
+    "kind": "item",
+    "name": "Bear Meat"
+  },
+  {
+    "id": "Sausages",
+    "kind": "item",
+    "name": "Sausages"
+  },
+  {
+    "id": "WolfMeat",
+    "kind": "item",
+    "name": "Wolf Meat"
+  },
+  {
+    "id": "TrophySkeletonPoison",
+    "kind": "item",
+    "name": "Rancid Remains Trophy"
+  },
+  {
+    "id": "Dandelion",
+    "kind": "item",
+    "name": "Dandelion"
+  },
+  {
+    "id": "Mushroom",
+    "kind": "item",
+    "name": "Mushroom"
+  },
+  {
+    "id": "RawMeat",
+    "kind": "item",
+    "name": "Boar Meat"
+  },
+  {
+    "id": "DeerMeat",
+    "kind": "item",
+    "name": "Deer Meat"
+  },
+  {
+    "id": "Thistle",
+    "kind": "item",
+    "name": "Thistle"
+  },
+  {
+    "id": "Carrot",
+    "kind": "item",
+    "name": "Carrot"
+  },
+  {
+    "id": "Turnip",
+    "kind": "item",
+    "name": "Turnip"
+  },
+  {
+    "id": "Onion",
+    "kind": "item",
+    "name": "Onion"
+  },
+  {
+    "id": "SerpentMeat",
+    "kind": "item",
+    "name": "Serpent Meat"
+  },
+  {
+    "id": "LoxMeat",
+    "kind": "item",
+    "name": "Lox Meat"
+  },
+  {
+    "id": "BarleyFlour",
+    "kind": "item",
+    "name": "Barley Flour"
+  },
+  {
+    "id": "FishRaw",
+    "kind": "item",
+    "name": "Raw Fish"
+  },
+  {
+    "id": "MeadHealthMinor",
+    "kind": "item",
+    "name": "Minor Healing Mead"
+  },
+  {
+    "id": "MeadStaminaMinor",
+    "kind": "item",
+    "name": "Minor Stamina Mead"
+  },
+  {
+    "id": "MeadHealthMedium",
+    "kind": "item",
+    "name": "Medium Healing Mead"
+  },
+  {
+    "id": "MeadStaminaMedium",
+    "kind": "item",
+    "name": "Medium Stamina Mead"
+  },
+  {
+    "id": "Ruby",
+    "kind": "item",
+    "name": "Ruby"
+  },
+  {
+    "id": "TrophyGrowth",
+    "kind": "item",
+    "name": "Growth Trophy"
+  },
+  {
+    "id": "TrophySurtling",
+    "kind": "item",
+    "name": "Surtling Trophy"
+  },
+  {
+    "id": "BronzeNails",
+    "kind": "item",
+    "name": "Bronze Nails"
+  },
+  {
+    "id": "Grausten",
+    "kind": "item",
+    "name": "Grausten"
+  },
+  {
+    "id": "BlackCore",
+    "kind": "item",
+    "name": "Black Core"
+  },
+  {
+    "id": "CopperOre",
+    "kind": "item",
+    "name": "Copper Ore"
+  },
+  {
+    "id": "IronOre",
+    "kind": "item",
+    "name": "Iron Ore"
+  },
+  {
+    "id": "IronScrap",
+    "kind": "item",
+    "name": "Scrap Iron"
+  },
+  {
+    "id": "BronzeScrap",
+    "kind": "item",
+    "name": "Scrap Bronze"
+  },
+  {
+    "id": "TinOre",
+    "kind": "item",
+    "name": "Tin Ore"
+  },
+  {
+    "id": "CopperScrap",
+    "kind": "item",
+    "name": "Copper Scrap"
+  },
+  {
+    "id": "Cultivator",
+    "kind": "item",
+    "name": "Cultivator"
+  },
+  {
+    "id": "FlametalOreNew",
+    "kind": "item",
+    "name": "Flametal Ore"
+  },
+  {
+    "id": "BlackMetalScrap",
+    "kind": "item",
+    "name": "Black Metal Scrap"
+  },
+  {
+    "id": "GoldOre",
+    "kind": "item",
+    "name": "Petrified Tissue"
+  },
+  {
+    "id": "Gold",
+    "kind": "item",
+    "name": "Bloodgold"
+  },
+  {
+    "id": "MeadBaseHealthMinor",
+    "kind": "item",
+    "name": "Mead Base: Minor Healing"
+  },
+  {
+    "id": "MeadBaseHealthMedium",
+    "kind": "item",
+    "name": "Mead Base: Medium Healing"
+  },
+  {
+    "id": "MeadBaseStaminaMinor",
+    "kind": "item",
+    "name": "Mead Base: Minor Stamina"
+  },
+  {
+    "id": "MeadBaseStaminaMedium",
+    "kind": "item",
+    "name": "Mead Base: Medium Stamina"
+  },
+  {
+    "id": "MeadBasePoisonResist",
+    "kind": "item",
+    "name": "Mead Base: Poison Resistance"
+  },
+  {
+    "id": "MeadPoisonResist",
+    "kind": "item",
+    "name": "Poison Resistance Mead"
+  },
+  {
+    "id": "MeadBaseFrostResist",
+    "kind": "item",
+    "name": "Mead Base: Frost Resistance"
+  },
+  {
+    "id": "MeadFrostResist",
+    "kind": "item",
+    "name": "Frost Resistance Mead"
+  },
+  {
+    "id": "BarleyWineBase",
+    "kind": "item",
+    "name": "Barley Wine Base: Fire Resistance"
+  },
+  {
+    "id": "BarleyWine",
+    "kind": "item",
+    "name": "Fire Resistance Barley Wine"
+  },
+  {
+    "id": "MeadBaseTasty",
+    "kind": "item",
+    "name": "Mead Base: Tasty"
+  },
+  {
+    "id": "MeadBaseHealthMajor",
+    "kind": "item",
+    "name": "Mead Base: Major Healing"
+  },
+  {
+    "id": "MeadHealthMajor",
+    "kind": "item",
+    "name": "Major Healing Mead"
+  },
+  {
+    "id": "MeadBaseStaminaLingering",
+    "kind": "item",
+    "name": "Mead Base: Lingering Stamina"
+  },
+  {
+    "id": "MeadStaminaLingering",
+    "kind": "item",
+    "name": "Lingering Stamina Mead"
+  },
+  {
+    "id": "MeadBaseEitrMinor",
+    "kind": "item",
+    "name": "Mead Base: Minor Eitr"
+  },
+  {
+    "id": "MeadEitrMinor",
+    "kind": "item",
+    "name": "Minor Eitr Mead"
+  },
+  {
+    "id": "MeadBaseEitrLingering",
+    "kind": "item",
+    "name": "Mead Base: Lingering Eitr"
+  },
+  {
+    "id": "MeadEitrLingering",
+    "kind": "item",
+    "name": "Lingering Eitr Mead"
+  },
+  {
+    "id": "MeadBaseHealthLingering",
+    "kind": "item",
+    "name": "Mead Base: Lingering Health"
+  },
+  {
+    "id": "MeadHealthLingering",
+    "kind": "item",
+    "name": "Lingering Healing Mead"
+  },
+  {
+    "id": "MeadBaseBzerker",
+    "kind": "item",
+    "name": "Mead base: Berserkir"
+  },
+  {
+    "id": "MeadBzerker",
+    "kind": "item",
+    "name": "Berserkir Mead"
+  },
+  {
+    "id": "MeadBaseStrength",
+    "kind": "item",
+    "name": "Mead Base: Troll Endurance"
+  },
+  {
+    "id": "MeadStrength",
+    "kind": "item",
+    "name": "Mead of Troll Endurance"
+  },
+  {
+    "id": "MeadBaseHasty",
+    "kind": "item",
+    "name": "Mead base: Ratatosk"
+  },
+  {
+    "id": "MeadHasty",
+    "kind": "item",
+    "name": "Tonic of Ratatosk"
+  },
+  {
+    "id": "MeadBaseLightFoot",
+    "kind": "item",
+    "name": "Mead Base: Lightfoot"
+  },
+  {
+    "id": "MeadLightfoot",
+    "kind": "item",
+    "name": "Lightfoot Mead"
+  },
+  {
+    "id": "MeadBaseSwimmer",
+    "kind": "item",
+    "name": "Mead Base: Vananidir"
+  },
+  {
+    "id": "MeadSwimmer",
+    "kind": "item",
+    "name": "Draught of Vananidir"
+  },
+  {
+    "id": "MeadBaseTamer",
+    "kind": "item",
+    "name": "Mead Base: Animal Whispers"
+  },
+  {
+    "id": "MeadTamer",
+    "kind": "item",
+    "name": "Brew of Animal Whispers"
+  },
+  {
+    "id": "MeadBaseBugRepellent",
+    "kind": "item",
+    "name": "Mead Base: Anti-Sting"
+  },
+  {
+    "id": "MeadBugRepellent",
+    "kind": "item",
+    "name": "Anti-Sting Concoction"
+  },
+  {
+    "id": "CookedMeat",
+    "kind": "item",
+    "name": "Cooked Boar Meat"
+  },
+  {
+    "id": "NeckTail",
+    "kind": "item",
+    "name": "Neck Tail"
+  },
+  {
+    "id": "NeckTailGrilled",
+    "kind": "item",
+    "name": "Grilled Neck Tail"
+  },
+  {
+    "id": "FishCooked",
+    "kind": "item",
+    "name": "Cooked Fish"
+  },
+  {
+    "id": "CookedDeerMeat",
+    "kind": "item",
+    "name": "Cooked Deer Meat"
+  },
+  {
+    "id": "CookedWolfMeat",
+    "kind": "item",
+    "name": "Cooked Wolf Meat"
+  },
+  {
+    "id": "ChickenMeat",
+    "kind": "item",
+    "name": "Chicken Meat"
+  },
+  {
+    "id": "CookedChickenMeat",
+    "kind": "item",
+    "name": "Cooked Chicken Meat"
+  },
+  {
+    "id": "HareMeat",
+    "kind": "item",
+    "name": "Hare Meat"
+  },
+  {
+    "id": "CookedHareMeat",
+    "kind": "item",
+    "name": "Cooked Hare Meat"
+  },
+  {
+    "id": "CookedBjornMeat",
+    "kind": "item",
+    "name": "Cooked Bear Meat"
+  },
+  {
+    "id": "SerpentMeatCooked",
+    "kind": "item",
+    "name": "Cooked Serpent Meat"
+  },
+  {
+    "id": "CookedLoxMeat",
+    "kind": "item",
+    "name": "Cooked Lox Meat"
+  },
+  {
+    "id": "BugMeat",
+    "kind": "item",
+    "name": "Seeker Meat"
+  },
+  {
+    "id": "CookedBugMeat",
+    "kind": "item",
+    "name": "Cooked Seeker Meat"
+  },
+  {
+    "id": "VoltureMeat",
+    "kind": "item",
+    "name": "Volture Meat"
+  },
+  {
+    "id": "CookedVoltureMeat",
+    "kind": "item",
+    "name": "Cooked Volture Meat"
+  },
+  {
+    "id": "AsksvinMeat",
+    "kind": "item",
+    "name": "Asksvin Tail"
+  },
+  {
+    "id": "CookedAsksvinMeat",
+    "kind": "item",
+    "name": "Cooked Asksvin Tail"
+  },
+  {
+    "id": "BoneMawSerpentMeat",
+    "kind": "item",
+    "name": "Bonemaw Meat"
+  },
+  {
+    "id": "CookedBoneMawSerpentMeat",
+    "kind": "item",
+    "name": "Cooked Bonemaw Meat"
+  },
+  {
+    "id": "MooseMeat",
+    "kind": "item",
+    "name": "Moose Meat"
+  },
+  {
+    "id": "CookedMooseMeat",
+    "kind": "item",
+    "name": "Cooked Moose Meat"
+  },
+  {
+    "id": "SwordGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Sword"
+  },
+  {
+    "id": "SwordGold",
+    "kind": "item",
+    "name": "Nord Sword"
+  },
+  {
+    "id": "AtgeirGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Atgeir"
+  },
+  {
+    "id": "AtgeirGold",
+    "kind": "item",
+    "name": "Nord Atgeir"
+  },
+  {
+    "id": "BattleaxeGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Greataxe"
+  },
+  {
+    "id": "BattleaxeGold",
+    "kind": "item",
+    "name": "Nord Greataxe"
+  },
+  {
+    "id": "AxeGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Axe"
+  },
+  {
+    "id": "AxeGold",
+    "kind": "item",
+    "name": "Nord Axe"
+  },
+  {
+    "id": "BowGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Bow"
+  },
+  {
+    "id": "BowGold",
+    "kind": "item",
+    "name": "Nord Bow"
+  },
+  {
+    "id": "CrossbowGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Crossbow"
+  },
+  {
+    "id": "CrossbowGold",
+    "kind": "item",
+    "name": "Nord Crossbow"
+  },
+  {
+    "id": "FistGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Knucklechains"
+  },
+  {
+    "id": "FistGold",
+    "kind": "item",
+    "name": "Nord Knucklechains"
+  },
+  {
+    "id": "KnifeGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Dagger"
+  },
+  {
+    "id": "KnifeGold",
+    "kind": "item",
+    "name": "Nord Dagger"
+  },
+  {
+    "id": "SledgeGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Sledge"
+  },
+  {
+    "id": "SledgeGold",
+    "kind": "item",
+    "name": "Nord Sledge"
+  },
+  {
+    "id": "MaceGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Mace"
+  },
+  {
+    "id": "MaceGold",
+    "kind": "item",
+    "name": "Nord Mace"
+  },
+  {
+    "id": "SpearGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Spear"
+  },
+  {
+    "id": "SpearGold",
+    "kind": "item",
+    "name": "Nord Spear"
+  },
+  {
+    "id": "THSwordGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Greatsword"
+  },
+  {
+    "id": "THSwordGold",
+    "kind": "item",
+    "name": "Nord Greatsword"
+  },
+  {
+    "id": "ArmorGoldHeavyChestUncooked",
+    "kind": "item",
+    "name": "Cast: Breastplate of the Protector"
+  },
+  {
+    "id": "ArmorDeepNorthHeavyChest",
+    "kind": "item",
+    "name": "Breastplate of the Protector"
+  },
+  {
+    "id": "ArmorGoldHeavyLegsUncooked",
+    "kind": "item",
+    "name": "Cast: Trousers of the Protector"
+  },
+  {
+    "id": "ArmorDeepNorthHeavylegs",
+    "kind": "item",
+    "name": "Trousers of the Protector"
+  },
+  {
+    "id": "ArmorGoldHeavyHelmetUncooked",
+    "kind": "item",
+    "name": "Cast: Helmet of the Protector"
+  },
+  {
+    "id": "HelmetDNHeavy",
+    "kind": "item",
+    "name": "Helmet of the Protector"
+  },
+  {
+    "id": "ArmorGoldMediumHelmetUncooked",
+    "kind": "item",
+    "name": "Cast: Hood of the Vanguard"
+  },
+  {
+    "id": "HelmetDNMediumHood",
+    "kind": "item",
+    "name": "Hood of the Vanguard"
+  },
+  {
+    "id": "ArmorGoldMediumChestUncooked",
+    "kind": "item",
+    "name": "Cast: Chestpiece of the Vanguard"
+  },
+  {
+    "id": "ArmorDeepNorthMediumChest",
+    "kind": "item",
+    "name": "Chestpiece of the Vanguard"
+  },
+  {
+    "id": "ArmorGoldMediumLegsUncooked",
+    "kind": "item",
+    "name": "Cast: Trousers of the Vanguard"
+  },
+  {
+    "id": "ArmorDeepNorthMediumlegs",
+    "kind": "item",
+    "name": "Trousers of the Vanguard"
+  },
+  {
+    "id": "ArmorGoldMageLegsUncooked",
+    "kind": "item",
+    "name": "Cast: Trousers of the Caller"
+  },
+  {
+    "id": "ArmorDeepNorthMagelegs",
+    "kind": "item",
+    "name": "Trousers of the Caller"
+  },
+  {
+    "id": "ArmorGoldMageChestUncooked",
+    "kind": "item",
+    "name": "Cast: Robes of the Caller"
+  },
+  {
+    "id": "ArmorDeepNorthMageChest",
+    "kind": "item",
+    "name": "Robes of the Caller"
+  },
+  {
+    "id": "ArmorGoldMageHelmetUncooked",
+    "kind": "item",
+    "name": "Cast: Headdress of the Caller"
+  },
+  {
+    "id": "HelmetDNMage",
+    "kind": "item",
+    "name": "Headdress of the Caller"
+  },
+  {
+    "id": "ShieldBucklerGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Buckler"
+  },
+  {
+    "id": "ShieldGoldBuckler",
+    "kind": "item",
+    "name": "Nord Buckler"
+  },
+  {
+    "id": "ShieldRoundGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Shield"
+  },
+  {
+    "id": "ShieldGold",
+    "kind": "item",
+    "name": "Nord Shield"
+  },
+  {
+    "id": "ShieldTowerGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Nord Greatshield"
+  },
+  {
+    "id": "ShieldGoldTower",
+    "kind": "item",
+    "name": "Nord Greatshield"
+  },
+  {
+    "id": "KeysGoldUncooked",
+    "kind": "item",
+    "name": "Cast: Intricate Key"
+  },
+  {
+    "id": "BloodGoldKey",
+    "kind": "item",
+    "name": "Intricate Key"
+  },
+  {
+    "id": "StaffSpiritCallerUncooked",
+    "kind": "item",
+    "name": "Cast: Spirit Caller"
+  },
+  {
+    "id": "StaffSpiritCaller",
+    "kind": "item",
+    "name": "Spirit Caller"
+  },
+  {
+    "id": "StaffOrbofAhriUncooked",
+    "kind": "item",
+    "name": "Cast: Echo Spike"
+  },
+  {
+    "id": "StaffOrbofAhri",
+    "kind": "item",
+    "name": "Echo Spike"
+  },
+  {
+    "id": "StaffFrostOrbsUncooked",
+    "kind": "item",
+    "name": "Cast: Northern Vengeance"
+  },
+  {
+    "id": "StaffFrostOrbs",
+    "kind": "item",
+    "name": "Northern Vengeance"
+  },
+  {
+    "id": "StaffThunderbloodUncooked",
+    "kind": "item",
+    "name": "Cast: Lightning Strike"
+  },
+  {
+    "id": "StaffThunderBlood",
+    "kind": "item",
+    "name": "Lightning Strike"
+  },
+  {
+    "id": "LoxPieUncooked",
+    "kind": "item",
+    "name": "Unbaked Lox Pie"
+  },
+  {
+    "id": "LoxPie",
+    "kind": "item",
+    "name": "Lox Meat Pie"
+  },
+  {
+    "id": "BreadDough",
+    "kind": "item",
+    "name": "Bread Dough"
+  },
+  {
+    "id": "Bread",
+    "kind": "item",
+    "name": "Bread"
+  },
+  {
+    "id": "FishAndBreadUncooked",
+    "kind": "item",
+    "name": "Uncooked Fish 'n' Bread"
+  },
+  {
+    "id": "FishAndBread",
+    "kind": "item",
+    "name": "Fish 'n' Bread"
+  },
+  {
+    "id": "MeatPlatterUncooked",
+    "kind": "item",
+    "name": "Uncooked Meat Platter"
+  },
+  {
+    "id": "MeatPlatter",
+    "kind": "item",
+    "name": "Meat Platter"
+  },
+  {
+    "id": "HoneyGlazedChickenUncooked",
+    "kind": "item",
+    "name": "Uncooked Honey Glazed Chicken"
+  },
+  {
+    "id": "HoneyGlazedChicken",
+    "kind": "item",
+    "name": "Honey Glazed Chicken"
+  },
+  {
+    "id": "MisthareSupremeUncooked",
+    "kind": "item",
+    "name": "Uncooked Misthare Supreme"
+  },
+  {
+    "id": "MisthareSupreme",
+    "kind": "item",
+    "name": "Misthare Supreme"
+  },
+  {
+    "id": "MagicallyStuffedShroomUncooked",
+    "kind": "item",
+    "name": "Uncooked Stuffed Mushroom"
+  },
+  {
+    "id": "MagicallyStuffedShroom",
+    "kind": "item",
+    "name": "Stuffed Mushroom"
+  },
+  {
+    "id": "RoastedCrustPieUncooked",
+    "kind": "item",
+    "name": "Uncooked Roasted Crust Pie"
+  },
+  {
+    "id": "RoastedCrustPie",
+    "kind": "item",
+    "name": "Roasted Crust Pie"
+  },
+  {
+    "id": "PiquantPieUncooked",
+    "kind": "item",
+    "name": "Uncooked Piquant Pie"
+  },
+  {
+    "id": "PiquantPie",
+    "kind": "item",
+    "name": "Piquant Pie"
+  },
+  {
+    "id": "VikingCupcakeUncooked",
+    "kind": "item",
+    "name": "Unbaked Sweetbread"
+  },
+  {
+    "id": "VikingCupcake",
+    "kind": "item",
+    "name": "Frosted Sweetbread"
+  },
+  {
+    "id": "SealBlubber",
+    "kind": "item",
+    "name": "Seal Blubber"
+  },
+  {
+    "id": "CookedSealBlubber",
+    "kind": "item",
+    "name": "Cooked Seal Blubber"
+  },
+  {
+    "id": "OvenPancakeUncooked",
+    "kind": "item",
+    "name": "Oven Pancake Batter"
+  },
+  {
+    "id": "OvenPancake",
+    "kind": "item",
+    "name": "Oven Pancake"
+  },
+  {
+    "id": "KaleChipsUncooked",
+    "kind": "item",
+    "name": "Raw Kale Chips"
+  },
+  {
+    "id": "KaleChips",
+    "kind": "item",
+    "name": "Kale Chips"
+  },
+  {
+    "id": "BakedPoteitrUncooked",
+    "kind": "item",
+    "name": "Unbaked Poteitr"
+  },
+  {
+    "id": "BakedPoteitr",
+    "kind": "item",
+    "name": "Baked Poteitr"
+  },
+  {
+    "id": "OatSeeds",
+    "kind": "item",
+    "name": "Oat Seeds"
+  },
+  {
+    "id": "Oat",
+    "kind": "item",
+    "name": "Oats"
+  },
+  {
+    "id": "OatFlour",
+    "kind": "item",
+    "name": "Oat Flour"
+  },
+  {
+    "id": "Raspberry",
+    "kind": "item",
+    "name": "Raspberries"
+  },
+  {
+    "id": "Chain",
+    "kind": "item",
+    "name": "Chain"
+  },
+  {
+    "id": "Coins",
+    "kind": "item",
+    "name": "Coins"
+  },
+  {
+    "id": "TrophyNeck",
+    "kind": "item",
+    "name": "Neck Trophy"
+  }
+]

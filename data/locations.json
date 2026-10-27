@@ -1,0 +1,276 @@
+[
+  {
+    "id": "AltarAsmodeus_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "Meadows",
+    "biomeArea": "Median",
+    "quantity": 10,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 5,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 8,
+    "inForest": true,
+    "minDistanceFromSimilar": 2000,
+    "group": "altarasmodeus",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 8,
+    "hasInterior": false,
+    "creatures": [],
+    "bossAltar": {
+      "boss": "BossAsmodeus_TW",
+      "bossName": "Asmodeus",
+      "offerItem": "TrophyNeck",
+      "offerItemName": "Neck Trophy",
+      "offerAmount": 2
+    },
+    "vegvisir": [],
+    "chests": [],
+    "pickables": [
+      {
+        "id": "BoneFragments",
+        "name": "Bone Fragments",
+        "count": 2
+      }
+    ],
+    "runestones": [
+      {
+        "topic": "",
+        "text": "In the elder days, the ancient vipers, creatures of unquenchable hunger, ravaged the realm of Valheim. So fearsome was their reign that the Necks, dwelling in those lands, were driven to the brink of extinction beneath the shadow of these monstrous serpents."
+      }
+    ]
+  },
+  {
+    "id": "AltarSvalt_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "BlackForest",
+    "biomeArea": "Median",
+    "quantity": 15,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 5,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 15,
+    "inForest": true,
+    "minDistanceFromSimilar": 1500,
+    "group": "altarsvalt",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 12,
+    "hasInterior": true,
+    "creatures": [
+      {
+        "id": "GDAncientShaman_TW",
+        "name": "Ancient Shaman",
+        "levelMin": 1,
+        "levelMax": 3,
+        "respawnMinutes": 15,
+        "day": true,
+        "night": true,
+        "count": 1
+      }
+    ],
+    "bossAltar": {
+      "boss": "BossSvalt_TW",
+      "bossName": "Svält",
+      "offerItem": "TrophyGreydwarfShaman",
+      "offerItemName": "Greydwarf Shaman Trophy",
+      "offerAmount": 2
+    },
+    "vegvisir": [],
+    "chests": [],
+    "pickables": [],
+    "runestones": [
+      {
+        "topic": "",
+        "text": "In the elder days, the greydwarves dared not wander at twilight, for in the gathering gloom prowled Svält, the devourer of dreams. In their despair, the shamans, masters of ancient blood-rites, wove their dark sorceries and cast him forth into the fiery realm of Surtr, banishing his dread presence from their midst."
+      }
+    ]
+  },
+  {
+    "id": "AltarVrykolathas_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "Swamp",
+    "biomeArea": "Median",
+    "quantity": 12,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 0,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 15,
+    "inForest": true,
+    "minDistanceFromSimilar": 1500,
+    "group": "altarvrykolathas",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 12,
+    "hasInterior": false,
+    "creatures": [
+      {
+        "id": "HelWraith_TW",
+        "name": "Hel Wraith",
+        "levelMin": 1,
+        "levelMax": 3,
+        "respawnMinutes": 15,
+        "day": false,
+        "night": true,
+        "count": 2
+      }
+    ],
+    "bossAltar": {
+      "boss": "BossVrykolathas_TW",
+      "bossName": "Vrykolathas",
+      "offerItem": "TrophyWraith",
+      "offerItemName": "Wraith Trophy",
+      "offerAmount": 2
+    },
+    "vegvisir": [],
+    "chests": [],
+    "pickables": [],
+    "runestones": [
+      {
+        "topic": "",
+        "text": "Cast forth to reign over the shadowed realm of Niflheim, Hel holds dominion over an ever-swelling host of the restless dead. Her spectral minions drift upon the cold winds of the heavens, ceaselessly seeking wayward souls to bind beneath her dark and unyielding rule."
+      }
+    ]
+  },
+  {
+    "id": "Vegvisir_location_Asmodeus_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "Meadows",
+    "biomeArea": "Everything",
+    "quantity": 15,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 5,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 8,
+    "inForest": true,
+    "minDistanceFromSimilar": 1500,
+    "group": "vegvisirasmodeus",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 2.2,
+    "hasInterior": false,
+    "creatures": [],
+    "bossAltar": null,
+    "vegvisir": [
+      {
+        "location": "AltarAsmodeus_TW",
+        "pin": "Asmodeus"
+      }
+    ],
+    "chests": [],
+    "pickables": [
+      {
+        "id": "Blueberries",
+        "name": "Blueberries",
+        "count": 1
+      }
+    ],
+    "runestones": []
+  },
+  {
+    "id": "Vegvisir_location_Svalt_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "BlackForest",
+    "biomeArea": "Everything",
+    "quantity": 12,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 3,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 8,
+    "inForest": true,
+    "minDistanceFromSimilar": 1000,
+    "group": "altarsvalt",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 3,
+    "hasInterior": false,
+    "creatures": [],
+    "bossAltar": null,
+    "vegvisir": [
+      {
+        "location": "AltarSvalt_TW",
+        "pin": "Svält"
+      }
+    ],
+    "chests": [],
+    "pickables": [
+      {
+        "id": "MushroomYellow",
+        "name": "Yellow Mushroom",
+        "count": 1
+      }
+    ],
+    "runestones": []
+  },
+  {
+    "id": "Vegvisir_location_Vrykolathas_TW",
+    "mod": "Monstrum",
+    "name": null,
+    "enabled": true,
+    "biome": "Swamp",
+    "biomeArea": "Everything",
+    "quantity": 12,
+    "unique": false,
+    "prioritized": true,
+    "altitudeMin": 3,
+    "altitudeMax": 1000,
+    "distanceMin": 0,
+    "distanceMax": 10000,
+    "terrainDeltaMin": 0,
+    "terrainDeltaMax": 2,
+    "inForest": true,
+    "minDistanceFromSimilar": 1000,
+    "group": "altarvrykolathas",
+    "mapIconAlways": false,
+    "mapIconWhenPlaced": false,
+    "radius": 2,
+    "hasInterior": false,
+    "creatures": [],
+    "bossAltar": null,
+    "vegvisir": [
+      {
+        "location": "AltarVrykolathas_TW",
+        "pin": "Vrykolathas"
+      }
+    ],
+    "chests": [],
+    "pickables": [
+      {
+        "id": "BoneFragments",
+        "name": "Bone Fragments",
+        "count": 1
+      }
+    ],
+    "runestones": []
+  }
+]
