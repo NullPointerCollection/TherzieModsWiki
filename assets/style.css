@@ -1,3 +1,8 @@
+/* Norse by Joël Carrouché (free font EULA in assets/fonts allows web embedding; files must stay unmodified).
+   Used only for decorative text: brand, tabs, headings, mod names, shortcut buttons. */
+@font-face { font-family: Norse; src: url("fonts/Norse.otf") format("opentype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: Norse; src: url("fonts/Norse-Bold.otf") format("opentype"); font-weight: 700; font-display: swap; }
+
 /* Light and dark themes. Therzie's icons are mostly dark metal and leather,
    so they get a brighten filter (see index.html) and sit on a well (.well): light in light mode, the original warm dark in dark mode.
    Theme picker: data-theme="light" | "dark" on <html>; no attribute = follow the OS. */
@@ -20,7 +25,7 @@
   --bar-text: #f2ece2;
   --bar-muted: #c3b8a5;
   --radius: 10px;
-  --font-display: "Averia Serif Libre", Georgia, serif;
+  --font-display: Norse, "Averia Serif Libre", Georgia, serif;
   --heading: var(--text);
   --rule: linear-gradient(90deg, transparent, #c9852e 20%, #f2b45a 50%, #c9852e 80%, transparent);
   --mod-Armory: #7a5a1c;
@@ -109,8 +114,8 @@ body { font: 400 var(--fs-base)/1.55 "Atkinson Hyperlegible", system-ui, sans-se
 a { color: var(--accent); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { text-decoration-color: currentColor; }
 h1, h2 { line-height: 1.2; text-wrap: balance; }
-h1 { font-family: var(--font-display); font-size: var(--fs-xl); font-weight: 700; margin: 0 0 6px; color: var(--heading); text-transform: uppercase; letter-spacing: .04em; }
-h2 { font-family: var(--font-display); font-size: var(--fs-lg); font-weight: 700; margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); color: var(--heading); letter-spacing: .02em; }
+h1 { font-family: var(--font-display); font-size: 2.4rem; font-weight: 700; margin: 0 0 6px; color: var(--heading); text-transform: uppercase; letter-spacing: .04em; }
+h2 { font-family: var(--font-display); font-size: 1.7rem; font-weight: 700; margin: 36px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--line); color: var(--heading); letter-spacing: .02em; }
 h3 { font-size: var(--fs-md); margin: 18px 0 6px; }
 p { max-width: 72ch; }
 .muted { color: var(--muted); }
@@ -124,10 +129,10 @@ code { font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-r
 }
 /* thin amber rule under the bar, like the game's menu dividers */
 .topbar::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: var(--rule); }
-.brand { font-family: var(--font-display); color: var(--bar-text); font-size: var(--fs-md); font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: .06em; }
+.brand { font-family: var(--font-display); color: var(--bar-text); font-size: 1.5rem; font-weight: 700; text-decoration: none; text-transform: uppercase; letter-spacing: .06em; }
 .brand:hover { color: var(--bar-hi); }
 .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
-.tabs a { color: var(--bar-muted); padding: 6px 14px; border-radius: 999px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: var(--fs-sm); }
+.tabs a { color: var(--bar-muted); padding: 6px 14px; border-radius: 999px; text-decoration: none; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-family: var(--font-display); font-size: 1.05rem; }
 .tabs a:hover { color: var(--bar-text); background: var(--bar-2); }
 .tabs a.active { color: #1a1206; background: #f2a541; }
 .topbar :focus-visible { outline-color: var(--bar-hi); }
@@ -244,9 +249,9 @@ blockquote.rune { margin: 10px 0; padding: 14px 18px; max-width: 58ch; backgroun
 /* Home */
 .home-mods { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 20px; }
 .home-mods .card { align-items: flex-start; text-align: left; padding: 18px; gap: 6px; }
-.home-mods .card h2 { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-size: var(--fs-lg); text-transform: uppercase; letter-spacing: .04em; }
+.home-mods .card h2 { margin: 0; padding: 0; border: 0; font-family: var(--font-display); font-size: 1.8rem; text-transform: uppercase; letter-spacing: .04em; }
 .quick { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
-.quick a { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 8px 16px; font-weight: 700; text-decoration: none; }
+.quick a { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 8px 18px; font-weight: 700; text-decoration: none; font-family: var(--font-display); font-size: 1.05rem; letter-spacing: .05em; text-transform: uppercase; }
 .quick a:hover { border-color: var(--accent); }
 .empty { padding: 24px; background: var(--surface); border: 1px dashed var(--line); border-radius: var(--radius); color: var(--muted); max-width: 60ch; }
 
@@ -284,10 +289,10 @@ blockquote.rune { margin: 10px 0; padding: 14px 18px; max-width: 58ch; backgroun
 }
 .banner::after { content: ""; position: absolute; inset: 0; z-index: 0; background: linear-gradient(90deg, #0a0b0c 0%, #0a0b0c 30%, #0a0b0ccc 45%, #0a0b0c40 75%, #0a0b0c26 100%); }
 .banner > * { position: relative; z-index: 1; }
-.banner h1 { color: #f2b45a; font-size: clamp(2rem, 5vw, 3rem); text-shadow: 0 2px 12px #000; }
+.banner h1 { color: #f2b45a; font-size: clamp(2.4rem, 6vw, 3.6rem); text-shadow: 0 2px 12px #000; }
 .banner .lede { color: #e6dfd2; max-width: 52ch; }
 .banner .quick { margin-top: 20px; }
-.banner .quick a { background: #0a0b0ccc; border-color: #f2a54199; color: #f2b45a; text-transform: uppercase; letter-spacing: .05em; font-size: var(--fs-sm); }
+.banner .quick a { background: #0a0b0ccc; border-color: #f2a54199; color: #f2b45a; }
 .banner .quick a:hover { background: #f2a541; color: #1a1206; border-color: #f2a541; }
 .banner .quick a:first-child { background: #f2a541; color: #1a1206; border-color: #f2a541; }
 .banner .rule { height: 1px; margin-top: 28px; background: var(--rule); max-width: 420px; }
