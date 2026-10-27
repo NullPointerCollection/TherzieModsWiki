@@ -38,6 +38,8 @@
   const yes = b => (b ? 'Yes' : 'No');
   const badge = mod => `<span class="badge mod-${esc(mod)}">${esc(mod)}</span>`;
   const img = (src, alt, cls = '') => src ? `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" class="${cls}" onerror="this.style.visibility='hidden'">` : '';
+  // Icons go on a light "well" so Therzie's dark icons stay readable.
+  const well = (src, alt, cls = '') => src ? `<span class="well ${cls}">${img(src, alt)}</span>` : '';
   const kindPath = { item: 'item', piece: 'piece', creature: 'creature', location: 'location' };
 
   function nameOf(id) {
@@ -57,11 +59,11 @@
     return e ? `<a href="#/${kindPath[e.kind]}/${encodeURIComponent(id)}">${text}</a>` : `<span>${text}</span>`;
   }
   function ingredient(id, amount, extra = '') {
-    return `<span class="ing">${img(iconOf(id), nameOf(id))}<span class="amt">${esc(amount)}×</span>${ref(id)}${extra}</span>`;
+    return `<span class="ing">${well(iconOf(id), nameOf(id))}<span class="amt">${esc(amount)}×</span>${ref(id)}${extra}</span>`;
   }
-  const itemLink = id => `<span class="ing">${img(iconOf(id), nameOf(id))}${ref(id)}</span>`;
+  const itemLink = id => `<span class="ing">${well(iconOf(id), nameOf(id))}${ref(id)}</span>`;
   const ingredients = list => (list || []).map(i => ingredient(i.id, i.amount)).join('') || '<span class="muted">—</span>';
-  const station = s => s ? `${s.icon ? img(s.icon, s.name) + ' ' : ''}${esc(s.name)}${s.level > 1 ? ` <span class="muted">(level ${s.level})</span>` : ''}` : '<span class="muted">None</span>';
+  const station = s => s ? `<span class="station">${well(s.icon, s.name, 'thumb')}${esc(s.name)}</span>${s.level > 1 ? ` <span class="muted">(level ${s.level})</span>` : ''}` : '<span class="muted">None</span>';
   const fact = (label, value) => value == null || value === '' ? '' : `<div class="fact"><span>${esc(label)}</span><b>${value}</b></div>`;
   const table = (head, rows) => rows.length ? `<div class="table-wrap"><table><thead><tr>${head.map(h => `<th class="${h.num ? 'num' : ''}">${esc(h.t ?? h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td class="${head[i].num ? 'num' : ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>` : '';
   const section = (title, html) => html ? `<h2>${esc(title)}</h2>${html}` : '';
@@ -72,7 +74,7 @@
   }
   function effect(e, label) {
     if (!e) return '';
-    return `<div class="effect">${img(e.icon, e.name)}<div><b>${esc(label ? label + ': ' : '')}${esc(e.name)}</b><div class="tip">${esc(e.tooltip)}</div></div></div>`;
+    return `<div class="effect">${well(e.icon, e.name)}<div><b>${esc(label ? label + ': ' : '')}${esc(e.name)}</b><div class="tip">${esc(e.tooltip)}</div></div></div>`;
   }
 
   // ---------- lookups across data ----------
@@ -102,19 +104,21 @@
     const shown = list.filter(x => (state.mod === 'All' || x.mod === state.mod) && (state.filter === 'All' || opts.group(x) === state.filter));
     app.innerHTML = `
       <h1>${esc(title)}</h1>
-      <p class="muted">${shown.length} of ${list.length}</p>
+      <p class="count">Showing ${shown.length} of ${list.length}</p>
       <div class="filters">
         ${mods.map(m => `<button class="chip ${state.mod === m ? 'on' : ''}" data-mod="${esc(m)}">${esc(m)}</button>`).join('')}
         ${filters.length > 2 ? `<select class="chip" id="groupFilter" aria-label="${esc(opts.groupLabel)}">${filters.map(f => `<option ${f === state.filter ? 'selected' : ''} value="${esc(f)}">${f === 'All' ? 'All ' + esc(opts.groupLabel) : esc(f)}</option>`).join('')}</select>` : ''}
       </div>
+      ${shown.length ? '' : '<p class="empty">Nothing matches these filters. Try “All”.</p>'}
       <div class="grid">${shown.map(x => card(kind, x, opts.sub(x), opts.big)).join('')}</div>`;
     app.querySelectorAll('[data-mod]').forEach(b => b.onclick = () => { state.mod = b.dataset.mod; route(); });
     const sel = document.getElementById('groupFilter');
     if (sel) sel.onchange = () => { state.filter = sel.value; route(); };
   }
   function card(kind, x, sub, big) {
-    return `<a class="card ${big ? 'big' : ''}" href="#/${kind}/${encodeURIComponent(x.id)}">
-      ${img(x.icon || x.portrait || x.screenshot, x.displayName || x.name)}
+    const cls = kind === 'location' ? 'big shot' : big ? 'big' : '';
+    return `<a class="card ${cls}" href="#/${kind}/${encodeURIComponent(x.id)}">
+      ${well(x.icon || x.portrait || x.screenshot, x.displayName || x.name)}
       <div class="name">${esc(x.displayName || x.name || words(x.id))}</div>
       <div class="sub">${badge(x.mod)} ${esc(sub || '')}</div></a>`;
   }
@@ -123,8 +127,8 @@
   function itemPage(it) {
     const q = it.maxQuality;
     const parts = [];
-    parts.push(`<div class="hero"><div class="art">${img(it.icon, it.name)}</div><div class="info">
-      <h1>${esc(it.name)}</h1><div>${badge(it.mod)} <span class="muted">${esc(TYPE_LABELS[it.type] || words(it.type))}</span></div>
+    parts.push(`<div class="hero">${well(it.icon, it.name)}<div class="info">
+      <h1>${esc(it.name)}</h1><div class="kind">${badge(it.mod)} <span class="muted">${esc(TYPE_LABELS[it.type] || words(it.type))}</span></div>
       ${it.description ? `<p class="desc">${esc(it.description)}</p>` : ''}
       <div class="facts">
         ${fact('Weight', num(it.weight))}${fact('Value', it.value ? num(it.value) : null)}
@@ -159,7 +163,7 @@
     // Recipes
     for (const r of it.recipes || []) {
       parts.push(section('Crafting', `<div class="facts">${fact('Station', station(r.station))}${fact('Makes', r.amount > 1 ? r.amount : null)}${!r.enabled ? fact('Status', 'Disabled in config') : ''}</div>
-        <p>${ingredients(r.ingredients)}</p>`));
+        <div class="ings">${ingredients(r.ingredients)}</div>`));
       if ((r.upgrades || []).length) parts.push(section('Upgrades', table(['Quality', 'Station', 'Cost'], r.upgrades.map(u => [u.quality, station(u.station), ingredients(u.ingredients)]))));
     }
 
@@ -173,7 +177,7 @@
     const parts = [];
     const drops = droppedBy(id);
     if (drops.length) parts.push(section('Dropped by', table(['Creature', { t: 'Amount', num: true }, { t: 'Chance', num: true }],
-      drops.map(({ c, d }) => [`${img(c.portrait, c.name, 'thumb')} ${ref(c.id)}`, d.min === d.max ? d.min : `${d.min}–${d.max}`, pct(d.chance)]))));
+      drops.map(({ c, d }) => [`${well(c.portrait, c.name, 'thumb')}${ref(c.id)}`, d.min === d.max ? d.min : `${d.min}–${d.max}`, pct(d.chance)]))));
     const locs = foundIn(id);
     if (locs.length) parts.push(section('Found at', locs.map(l => ref(l.id)).join(', ')));
     const conv = conversionsFor(id);
@@ -189,8 +193,8 @@
   }
 
   function piecePage(p) {
-    const parts = [`<div class="hero"><div class="art">${img(p.icon, p.name)}</div><div class="info">
-      <h1>${esc(p.name)}</h1><div>${badge(p.mod)} <span class="muted">${esc(p.category)}</span></div>
+    const parts = [`<div class="hero">${well(p.icon, p.name)}<div class="info">
+      <h1>${esc(p.name)}</h1><div class="kind">${badge(p.mod)} <span class="muted">${esc(p.category)}</span></div>
       ${p.description ? `<p class="desc">${esc(p.description)}</p>` : ''}
       <div class="facts">${fact('Built with', esc(nameOf(p.tool)))}${fact('Requires', station(p.station))}
       ${fact('Health', p.health != null ? num(p.health) : null)}${fact('Material', p.material ? esc(words(p.material)) : null)}
@@ -198,7 +202,7 @@
       ${p.storage ? fact('Storage', `${p.storage.width} × ${p.storage.height}`) : ''}
       ${fact('Only in', p.onlyInBiome ? biomes(p.onlyInBiome) : null)}
       ${p.isStation ? fact('Crafting station', 'Yes') : ''}${p.extends ? fact('Upgrades', esc(p.extends.name)) : ''}</div></div></div>`];
-    parts.push(section('Build cost', `<p>${ingredients(p.ingredients)}</p>`));
+    parts.push(section('Build cost', `<div class="ings">${ingredients(p.ingredients)}</div>`));
     if (p.plant) parts.push(section('Growing', `<div class="facts">${fact('Biomes', biomes(p.plant.biomes))}${fact('Grow time', `${duration(p.plant.growTimeMin)}–${duration(p.plant.growTimeMax)}`)}${fact('Needs cultivated ground', yes(p.plant.needsCultivatedGround))}</div>`));
     if (p.isStation) {
       const items = db.items.filter(i => (i.recipes || []).some(r => r.station && r.station.id === p.id));
@@ -212,8 +216,8 @@
   }
 
   function creaturePage(c) {
-    const parts = [`<div class="hero"><div class="art portrait">${img(c.portrait, c.name)}</div><div class="info">
-      <h1>${esc(c.name)}</h1><div>${badge(c.mod)} ${c.boss ? '<span class="badge" style="color:var(--accent)">Boss</span>' : ''} <span class="muted">${esc(words(c.faction))}</span></div>
+    const parts = [`<div class="hero">${well(c.portrait, c.name, 'portrait')}<div class="info">
+      <h1>${esc(c.name)}</h1><div class="kind">${badge(c.mod)} ${c.boss ? '<span class="badge boss">Boss</span>' : ''} <span class="muted">${esc(words(c.faction))}</span></div>
       <div class="facts">${fact('Health', num(c.health))}${c.flying ? fact('Flying', 'Yes') : ''}
       ${fact('Walk / run', `${num(c.walkSpeed)} / ${num(c.runSpeed)}`)}
       ${c.tameable ? fact('Tameable', 'Yes') : ''}</div></div></div>`];
@@ -225,7 +229,7 @@
     if (c.tameable) {
       const t = c.tameable;
       parts.push(section('Taming', `<div class="facts">${fact('Taming time', duration(t.tamingTime))}${fact('Stays fed', duration(t.fedDuration))}${fact('Commandable', yes(t.commandable))}${t.saddle ? fact('Saddle', ref(t.saddle)) : ''}</div>
-        <p>Eats: ${(t.food || []).map(itemLink).join('') || '—'}</p>`));
+        <div class="ings"><span class="label">Eats</span>${(t.food || []).map(itemLink).join('') || '—'}</div>`));
     }
     const family = [c.offspring ? `Offspring: ${ref(c.offspring)}` : '', c.growsInto ? `Grows into ${ref(c.growsInto.id)} after ${duration(c.growsInto.seconds)}` : '',
       ...db.creatures.filter(x => x.offspring === c.id).map(x => `Born from ${ref(x.id)}`)].filter(Boolean);
@@ -245,8 +249,8 @@
   }
 
   function locationPage(l) {
-    const parts = [`<div class="hero">${l.screenshot ? `<div class="art shot">${img(l.screenshot, l.displayName)}</div>` : ''}<div class="info">
-      <h1>${esc(l.displayName)}</h1><div>${badge(l.mod)} <span class="muted">${biomes(l.biome)}</span></div>
+    const parts = [`<div class="hero">${l.screenshot ? `<div class="shot">${img(l.screenshot, l.displayName)}</div>` : ''}<div class="info">
+      <h1>${esc(l.displayName)}</h1><div class="kind">${badge(l.mod)} <span class="muted">${biomes(l.biome)}</span></div>
       <div class="facts">${fact('Biome', biomes(l.biome))}${fact('Biome area', esc(words(l.biomeArea)))}${fact('Per world', l.unique ? '1 (unique)' : `up to ${l.quantity}`)}
       ${fact('Altitude', `${num(l.altitudeMin)} to ${num(l.altitudeMax)}`)}${fact('Distance from center', `${num(l.distanceMin)} to ${num(l.distanceMax)} m`)}
       ${fact('Min. spacing', l.minDistanceFromSimilar ? `${num(l.minDistanceFromSimilar)} m` : null)}${fact('Radius', l.radius ? `${num(l.radius)} m` : null)}
@@ -256,7 +260,7 @@
     const pointedBy = db.locations.filter(x => (x.vegvisir || []).some(v => v.location === l.id));
     if (pointedBy.length) parts.push(section('Found via', pointedBy.map(x => `${ref(x.id)} reveals this location.`).join('<br>')));
     if ((l.creatures || []).length) parts.push(section('Creatures', table(['Creature', { t: 'Count', num: true }, { t: 'Stars', num: true }, 'Time', { t: 'Respawn', num: true }],
-      l.creatures.map(c => [`${img(iconOf(c.id), c.name, 'thumb')} ${ref(c.id)}`, c.count, `${c.levelMin - 1}–${c.levelMax - 1}`,
+      l.creatures.map(c => [`${well(iconOf(c.id), c.name, 'thumb')}${ref(c.id)}`, c.count, `${c.levelMin - 1}–${c.levelMax - 1}`,
         c.day == null ? '—' : c.day && c.night ? 'Day & night' : c.day ? 'Day' : 'Night', c.respawnMinutes ? `${num(c.respawnMinutes)} min` : '—']))));
     for (const ch of l.chests || []) parts.push(section('Chest loot', `<p class="muted">${ch.rollsMin === ch.rollsMax ? ch.rollsMin : `${ch.rollsMin}–${ch.rollsMax}`} rolls${ch.chance < 1 ? `, ${pct(ch.chance)} chance` : ''}</p>` +
       table(['Item', { t: 'Stack', num: true }, { t: 'Weight', num: true }], ch.items.map(i => [itemLink(i.id), i.stackMin === i.stackMax ? i.stackMin : `${i.stackMin}–${i.stackMax}`, `${num(i.weightPercent)}%`]))));
@@ -268,12 +272,20 @@
   function homePage() {
     const count = (list, mod) => list.filter(x => x.mod === mod).length;
     app.innerHTML = `<h1>Therzie Mods Wiki</h1>
-      <p class="muted">Reference for Therzie's Valheim mods, generated straight from the game data.</p>
+      <p class="lede">Recipes, stats, creatures and altars for Therzie's Valheim mods, pulled straight from the game data.</p>
+      <nav class="quick" aria-label="Shortcuts">
+        <a href="#/creatures" data-quick="Tameable">Tameable creatures</a>
+        <a href="#/creatures" data-quick="Boss">Bosses</a>
+        <a href="#/locations" data-quick="All">Altars &amp; locations</a>
+        <a href="#/pieces" data-quick="All">Crafting stations &amp; pieces</a>
+      </nav>
+      <h2>The mods</h2>
       <div class="home-mods">${(db.meta.mods || []).map(m => `<a class="card" href="#/items" data-home-mod="${esc(m)}">
-        <h3><span class="badge mod-${esc(m)}" style="font-size:16px;border:0;padding:0">${esc(m)}</span></h3>
-        <div class="muted">${esc(MOD_INFO[m] || '')}</div>
+        <h2 style="color:var(--mod-${esc(m)})">${esc(m)}</h2>
+        <div>${esc(MOD_INFO[m] || '')}</div>
         <div class="sub">${count(db.items, m)} items · ${count(db.pieces, m)} pieces · ${count(db.creatures, m)} creatures${count(db.locations, m) ? ` · ${count(db.locations, m)} locations` : ''}</div></a>`).join('')}</div>`;
     app.querySelectorAll('[data-home-mod]').forEach(a => a.onclick = () => { state.mod = a.dataset.homeMod; state.filter = 'All'; });
+    app.querySelectorAll('[data-quick]').forEach(a => a.onclick = () => { state.mod = 'All'; state.filter = a.dataset.quick; });
   }
 
   function searchPage(q) {
@@ -281,7 +293,7 @@
     const hit = x => (x.displayName || x.name || '').toLowerCase().includes(needle) || x.id.toLowerCase().includes(needle);
     const groups = [['Items', 'item', db.items], ['Pieces', 'piece', db.pieces], ['Creatures', 'creature', db.creatures], ['Locations', 'location', db.locations]]
       .map(([t, k, list]) => [t, k, list.filter(hit)]).filter(g => g[2].length);
-    app.innerHTML = `<h1>Search: “${esc(q)}”</h1>` + (groups.length ? groups.map(([t, k, list]) => section(`${t} (${list.length})`, `<div class="grid">${list.map(x => card(k, x, '')).join('')}</div>`)).join('') : '<p class="muted">Nothing found.</p>');
+    app.innerHTML = `<h1>Search: “${esc(q)}”</h1>` + (groups.length ? groups.map(([t, k, list]) => section(`${t} (${list.length})`, `<div class="grid">${list.map(x => card(k, x, '')).join('')}</div>`)).join('') : `<p class="empty">Nothing called “${esc(q)}”. Try part of a name, like “bow” or “fenrir”.</p>`);
   }
 
   // ---------- routing ----------
