@@ -35,6 +35,14 @@
   </header>
   <main id="app"><p class="muted">Loading…</p></main>
   <footer class="footer" id="footer"></footer>
+  <!-- Lifts the shadows of Therzie's very dark icons without editing the PNGs. Lower exponent = brighter. -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="brighten" color-interpolation-filters="sRGB">
+      <feComponentTransfer>
+        <feFuncR type="gamma" exponent="0.6"/><feFuncG type="gamma" exponent="0.6"/><feFuncB type="gamma" exponent="0.6"/>
+      </feComponentTransfer>
+    </filter>
+  </svg>
   <script src="assets/app.js"></script>
 </body>
 </html>

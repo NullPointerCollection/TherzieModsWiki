@@ -260,3 +260,4 @@ blockquote.rune { margin: 10px 0; padding: 14px 18px; max-width: 58ch; backgroun
   border-radius: 999px; padding: 6px 10px; font: inherit; cursor: pointer;
 }
 @media (max-width: 640px) { .theme { order: -1; margin-left: auto; } .brand { order: -2; } }
+.well img.icon { filter: url(#brighten); }

@@ -39,7 +39,8 @@
   const badge = mod => `<span class="badge mod-${esc(mod)}">${esc(mod)}</span>`;
   const img = (src, alt, cls = '') => src ? `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy" class="${cls}" onerror="this.style.visibility='hidden'">` : '';
   // Icons go on a light "well" so Therzie's dark icons stay readable.
-  const well = (src, alt, cls = '') => src ? `<span class="well ${cls}">${img(src, alt)}</span>` : '';
+  // Item/piece/effect icons (not creature renders or screenshots) get the brighten filter.
+  const well = (src, alt, cls = '') => src ? `<span class="well ${cls}">${img(src, alt, /^icons\/(?!creatures\/)/.test(src) ? 'icon' : '')}</span>` : '';
   const kindPath = { item: 'item', piece: 'piece', creature: 'creature', location: 'location' };
 
   function nameOf(id) {
